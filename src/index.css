@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.mainmenu .navbar-nav li a {
+  color: #2f2a2a;
+  font-size: 10px;
+  padding: 30px 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.mainmenu .navbar-nav li a:hover {
+  background: none;
+  color: #d96c34;
+}
+#x-section-9 {
+  position: relative;
+  z-index: 9999;
+}
+.navbar-toggle .icon-bar {
+  background: #cc2020;
+}
+.header-top-area {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: white;
+}
