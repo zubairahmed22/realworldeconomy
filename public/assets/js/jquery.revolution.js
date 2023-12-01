@@ -2,7 +2,7 @@
 					var revapi34;
 					tpj(document).ready(function() {
 						if(tpj("#rev_slider_34_1").revolution == undefined){
-							revslider_showDoubleJqueryError("#rev_slider_34_1");
+							revapi34("#rev_slider_34_1");
 						}else{
 							revapi34 = tpj("#rev_slider_34_1").show().revolution({
 								sliderType:"standard",

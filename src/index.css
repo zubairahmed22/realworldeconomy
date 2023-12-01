@@ -11,8 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-
+.service_icon {
+  display: inline-block;
+  font-size: 36px;
+  vertical-align: middle;
+  margin-left: 30px !important;
+}
+.top_footer_info__block {
+  background: #355c9d none repeat scroll 0 0;
+  color: #ffffff;
+}
+.top_footer_info__block {
+  background: #fff none repeat scroll 0 0;
+  color: #000;
+}
+.main_footer__block::before {
+  background: #f2f2f2 none repeat scroll 0 0;
+  content: "";
+  height: 99%;
+  left: 0;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.footer_box__block > h4, p {
+  color: black;
+}
+.footer_box__block > ul li a {
+  color: black;
+}
+.footer_box__block > ul li  {
+  color: black;
+}
+.single_info__block {
+  position: relative;
+  display: flex;
+}
+.footer_box__block.address-box li {
+  border: 0 none;
+  margin: 0;
+  display: flex !important;
+}
+.b-line {
+  position: relative;
+  width: 60px;
+  height: 3px;
+  background: #d86935;
+  display: block;
+  margin: 0 auto;
+}
 .mainmenu .navbar-nav li a {
   color: #2f2a2a;
   font-size: 10px;
@@ -23,7 +71,64 @@ code {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
+.btn-text {
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  line-height: 41px;
+  border: 2px solid #d86935;
+  padding: 0 22px;
+  border-radius: 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #d86832;
+  height: 44px;
+  text-align: center;
+  -webkit-transition: all 0.2s linear 0s;
+  -moz-transition: all 0.2s linear 0s;
+  -ms-transition: all 0.2s linear 0s;
+  -o-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
 
+#footer-widgets .widget .widget-title > span::after {
+  width: 0;
+  height: 1px;
+  background-color: #585252;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: -2;
+  width: 60px;
+  height: 3px;
+  background-color: #d45838;
+  margin-left: 110px;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #d86935;
+  text-transform: capitalize;
+  margin-top: 100px !important;
+}
+
+.available_wrap__block{
+  background-image: url(../public/assets/images/map.jpg);
+  height: 500px;
+  display: table;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+.btn-text:hover {
+  background: none;
+  color: #d86832;
+  text-decoration: none;
+}
 .mainmenu .navbar-nav li a:hover {
   background: none;
   color: #d96c34;

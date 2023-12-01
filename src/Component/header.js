@@ -25,31 +25,28 @@ export const HeaderComponent = () => {
                                 </div>
                                 <div className="navbar-collapse collapse">
                                     <ul className="nav navbar-nav navbar-right">
-                    <li> <a>Home <i className="fa fa-angle-down"></i></a>
+                    <li> <a>Home </a>
                     
               </li>
-              <li> <a>About us <i className="fa fa-angle-down"></i></a>
+              <li> <a>About us</a>
                 
               </li>
-              <li> <a href="">services <i className="fa fa-angle-down"></i></a>
+              <li> <a href="">services </a>
                
               </li>
              
-            <li> <a href="">blog <i className="fa fa-angle-down"></i></a>
-                <ul className="sub-menu">
-                  <li> <a href="blog.html">Blog</a> </li>
-                  <li> <a href="blog-detail.html">Blog Details</a> </li>
-                </ul>
+            <li> <a href="">blog </a>
+                
               </li>
-              <li> <a href="">pages <i className="fa fa-angle-down"></i></a>
+              <li> <a href="">pages </a>
              
               </li>
-              <li> <a href="#!">Shop <i className="fa fa-angle-down"></i></a>  
+              <li> <a href="#!">Shop </a>  
                
                 
                 
               </li>
-              <li> <a href="#!">Contact us <i className="fa fa-angle-down"></i></a>
+              <li> <a href="#!">Contact us </a>
                 
               </li>
              
