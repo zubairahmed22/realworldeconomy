@@ -692,13 +692,13 @@ footer ul li {
     line-height: 23px;
 }
 .main_footer__block{
-    background-image: url(../images/footer__bg-block.jpg);
+    
     background-size: cover;
     background-position:top center;
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
-    color: #fff;
+    color: #f2f2f2;
 }
 .main_footer__block::before {
   background: #0c1f38 none repeat scroll 0 0;
