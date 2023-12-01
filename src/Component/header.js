@@ -10,7 +10,7 @@ export const HeaderComponent = () => {
                     <div className="col-sm-3">
                         
                         <div className="logo">
-                            <a href="index1.html"> <img src="assets/images/logo_re1.png" alt="Logo"/> </a>
+                            <a href="index1.html"> <img src="assets/images/Finance_logo.png" alt="Logo"/> </a>
                         </div>
                         
                     </div>
