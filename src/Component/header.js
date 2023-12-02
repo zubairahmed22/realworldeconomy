@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const HeaderComponent = () => {
   return (
@@ -10,7 +11,7 @@ export const HeaderComponent = () => {
                     <div className="col-sm-3">
                         
                         <div className="logo">
-                            <a href="index1.html"> <img src="assets/images/Finance_logo.png" alt="Logo"/> </a>
+                            <Link to={"/"}><img src="assets/images/Finance_logo.png" alt="Logo"/></Link> 
                         </div>
                         
                     </div>
@@ -25,10 +26,10 @@ export const HeaderComponent = () => {
                                 </div>
                                 <div className="navbar-collapse collapse">
                                     <ul className="nav navbar-nav navbar-right">
-                    <li> <a>Home </a>
+                    <li> <Link className="linkstyle" to={"/"}>Home </Link>
                     
               </li>
-              <li> <a>About us</a>
+              <li> <Link className="linkstyle" to={"/about"}>About us</Link>
                 
               </li>
               <li> <a href="">services </a>
@@ -46,7 +47,7 @@ export const HeaderComponent = () => {
                 
                 
               </li>
-              <li> <a href="#!">Contact us </a>
+              <li> <Link className="linkstyle" to={"/contact"}>Contact us</Link>
                 
               </li>
              

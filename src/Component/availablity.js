@@ -14,10 +14,10 @@ const Availablity = () => {
 					<div className="col-sm-4">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
-								<div className="service_icon">
+								<div className="service_icon1">
 									<i className="hi-icon fa fa-tachometer"></i>
 								</div>
-								<div className="service_details">
+								<div className="service_details1">
 									<h3>Fast Approval</h3>
 								</div>
 								<div className="service_content">
@@ -31,10 +31,10 @@ const Availablity = () => {
 					<div className="col-sm-4">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
-								<div className="service_icon">
+								<div className="service_icon1">
 									<i className="hi-icon fa fa-group"></i>
 								</div>
-								<div className="service_details">
+								<div className="service_details1">
 									<h3>Refinancing</h3>
 								</div>
 								<div className="service_content">
@@ -48,10 +48,10 @@ const Availablity = () => {
 					<div className="col-sm-4">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
-								<div className="service_icon">
+								<div className="service_icon1">
 									<i className="hi-icon fa fa-file-text-o"></i>
 								</div>
-								<div className="service_details">
+								<div className="service_details1">
 									<h3>Free Documention</h3>
 								</div>
 								<div className="service_content">

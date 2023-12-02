@@ -5,26 +5,7 @@ const Footer = () => {
     <footer>
     <div className="top_footer_info__block ptb-20">
     <div className="container">
-            <div className="row">
-                <div className="col-sm-4">
-                    <div className="single_info__block">
-                        <i className="fa fa-phone"></i>
-                        <h4>0(000) 000 000 <span>Monday-Friday, 8am-7pm</span></h4>
-                    </div>
-                </div>
-                <div className="col-sm-4">
-                    <div className="single_info__block">
-                        <i className="fa fa-envelope-o"></i>
-                        <h4>business@support.com <span>Monday-Friday, 8am-7pm</span></h4>
-                    </div>
-                </div>
-                <div className="col-sm-4">
-                    <div className="single_info__block">
-                        <i className="fa fa-bullhorn"></i>
-                        <h4>Request a quote <span>Get all the information</span></h4>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     <div className="main_footer__block pb-0 pt-60">

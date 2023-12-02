@@ -1,24 +1,31 @@
 
+import { Routes,Route } from 'react-router-dom';
 import './App.css';
 import Footer from './Component/Footer';
-import { Team } from './Component/Team';
-import Availablity from './Component/availablity';
-import FirstSection from './Component/firstSection';
 import { HeaderComponent } from './Component/header';
-import MainBanner from './Component/mainBanner';
-import { OurService } from './Component/ourService';
+
+
+import { Home } from './Home';
+import About from './about';
+import { Contact } from './Contact';
 
 function App() {
   return (
     <div className="App">
-  
+        <HeaderComponent/>
+  <Routes>
 
-    <HeaderComponent/>
-	<MainBanner/>
-  <FirstSection/>
-  <Availablity/>
+<Route path="/" element={<Home/>}/>
+<Route path='/about' element={<About/>}/>
+<Route path='/contact' element={<Contact/>}/>
+
+
+  
+	
   {/* <Team/> */}
-  <OurService/>
+  
+  {/* <Faq/> */}
+  </Routes>
   <Footer/>
 	
     </div>

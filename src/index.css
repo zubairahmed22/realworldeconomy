@@ -6,7 +6,106 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.heading-box.pb-30 {
+  text-align: start;
+}
+.footer_box__block > h4, p {
+  color: black;
+  text-align: justify;
+}
 
+.light-color * {
+  color: #fff;
+  text-align: center;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.hi-icon {
+  display: inline-block;
+  font-size: 0px;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #daa106;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.headeing.pb-30 > h2 {
+  margin-left: 10px;
+}
+.logo {
+  display: flex;
+}
+.col-sm-6.text-right > p {
+  text-align: end !important;
+}
+.headeing.pb-20 {
+  text-align: start !important;
+}
+.b-line {
+  position: relative;
+  width: 60px;
+  height: 3px;
+  background: #d86935;
+  display: block;
+  margin: 0 auto;
+  text-align: start;
+  margin-left: 15px !important;
+}
+.headeing.pb-30  {
+ text-align: start;
+}
+
+.service_details1 {
+  display: inline-block;
+  width: calc(100% - 70px);
+  width: -webkit-calc(100% - 70px);
+  vertical-align: middle;
+  padding-left: 15px;
+  text-align: start;
+}
+
+
+.service_icon1 {
+  display: inline-block;
+  font-size: 36px;
+  vertical-align: middle;
+  /* margin-left: 30px !important; */
+  /* display: flex; */
+}
+.service_icon2 {
+  display: inline-block;
+  font-size: 36px;
+  vertical-align: middle;
+  /* margin-left: 30px !important; */
+  align-items: start;
+  text-align: start;
+}
+.col-sm-6.pb-xs-30 > h4 {
+  text-align: justify;
+
+}
+.iconContainer {
+  display: flex;
+}
+h5, .h5 {
+  font-size: 14px;
+  text-align: start;
+}
+
+.list {
+  list-style: none;
+  text-align: justify;
+  justify-content: flex-start;
+
+  padding: 0px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -49,8 +148,9 @@ code {
 .footer_box__block > ul li a {
   color: black;
 }
-.footer_box__block > ul li  {
+.footer_box__block > ul li {
   color: black;
+  text-align: start;
 }
 .single_info__block {
   position: relative;
@@ -157,4 +257,7 @@ h2 {
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   background: white;
+}
+.maindiv{
+  display: flex;
 }
