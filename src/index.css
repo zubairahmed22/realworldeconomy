@@ -13,6 +13,62 @@ body {
   color: black;
   text-align: justify;
 }
+h1 span {
+  position: relative;
+  font-size: 25px;
+  line-height: normal;
+}
+.b-line {
+  margin-left: 370px !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+p.HeroPtage {
+  color: #ffffff;
+}
+.value_proposition {
+  margin-top: 5px !important;
+  
+}
+.service_icon1 {
+  display: inline-block;
+  font-size: 36px;
+  vertical-align: middle;
+  
+  
+  
+ 
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.service_details1 {
+  text-align: start;
+  padding: 0px !important;
+}
+/* .navbar-collapse {
+  background: rgb(84 129 180);
+  
+} */
+.topIconContainer {
+  display: flex;
+  justify-content: start;
+}
+.text-uppercase {
+  text-transform: capitalize;
+  font-size: 50px;
+  text-align: start;
+  color: #ffffff;
+  font-weight: 600;
+  margin-top: 50px;
+}
+section#home {
+  background-color: #79accd;
+}
 
 .light-color * {
   color: #fff;
@@ -38,6 +94,12 @@ body {
 }
 .headeing.pb-30 > h2 {
   margin-left: 10px;
+}
+.banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-block: 100px;
 }
 .logo {
   display: flex;
