@@ -16,7 +16,7 @@ const Availablity = () => {
 							<div className="about__block-box">
 								<div className='topIconContainer'>
 								<div className="service_icon1">
-									<img src='assets/images/new_propositionIcon.png' className='value_proposition'/>
+									<img src='assets/images/tokenizaiton.png' className='value_proposition'/>
 									
 
 								</div>
@@ -40,11 +40,14 @@ const Availablity = () => {
 					<div className="col-sm-4">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
+							<div className='topIconContainer'>
 								<div className="service_icon1">
-									<i className="hi-icon fa fa-group"></i>
+								<img src='assets/images/technological.png' className='value_proposition'/>
+									
 								</div>
 								<div className="service_details1">
 									<h3>Technological Infrastructure</h3>
+								</div>
 								</div>
 								<div className="service_content">
 									<p>
@@ -59,12 +62,16 @@ const Availablity = () => {
 					<div className="col-sm-4">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
+							<div className='topIconContainer'>
 								<div className="service_icon1">
-									<i className="hi-icon fa fa-file-text-o"></i>
+								<img src='assets/images/development_fund.png' className='value_proposition'/>
+									
+							
 								</div>
 								<div className="service_details1">
-									<h3>Development Funding
+									<h3>Development <br/> Funding
 </h3>
+								</div>
 								</div>
 								<div className="service_content">
 									<p>
@@ -81,13 +88,17 @@ const Availablity = () => {
 					<div className="col-sm-4">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
+							<div className='topIconContainer'>
 								<div className="service_icon1">
-									<i className="hi-icon fa fa-file-text-o"></i>
+								<img src='assets/images/assetsinvestment.png' className='value_proposition'/>
+									
 								</div>
 								<div className="service_details1">
-									<h3>Investments in Assets
+									<h3>Investments<br/>
+										 in Assets
 
 </h3>
+								</div>
 								</div>
 								<div className="service_content">
 									<p>
@@ -107,13 +118,15 @@ const Availablity = () => {
 					<div className="col-sm-4">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
+							<div className='topIconContainer'>
 								<div className="service_icon1">
-									<i className="hi-icon fa fa-file-text-o"></i>
+								<img src='assets/images/assettokenization.png' className='value_proposition'/>
 								</div>
 								<div className="service_details1">
 									<h3>Asset Tokenization
 
 </h3>
+								</div>
 								</div>
 								<div className="service_content">
 									<p>
@@ -133,13 +146,16 @@ const Availablity = () => {
 					<div className="col-sm-4">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
+							<div className='topIconContainer'>
 								<div className="service_icon1">
-									<i className="hi-icon fa fa-file-text-o"></i>
+								<img src='assets/images/communitygroup.png' className='value_proposition'/>	
+									
 								</div>
 								<div className="service_details1">
 									<h3>Community Decisions and Investment
 
 </h3>
+								</div>
 								</div>
 								<div className="service_content">
 									<p>
@@ -185,8 +201,10 @@ const Availablity = () => {
 					<div className="col-sm-4">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
+							<div className='topIconContainer'>
 								<div className="service_icon1">
-									<i className="hi-icon fa fa-file-text-o"></i>
+								<img src='assets/images/expantion.png' className='value_proposition'/>	
+									
 								</div>
 								<div className="service_details1">
 									<h3>International Expansion
@@ -194,6 +212,7 @@ const Availablity = () => {
 
 
 </h3>
+								</div>
 								</div>
 								<div className="service_content">
 									<p>

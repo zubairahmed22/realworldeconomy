@@ -103,7 +103,7 @@ const Footer = () => {
             <div className="copyriight_block ptb-20 mt-20">
                 <div className="row">
                     <div className="col-sm-6">
-                        <a href="#" className="footer__block-logo"><img src="assets/images/logo_re1.png" alt=""/></a>
+                        <a href="#" className="footer__block-logo"><img src="assets/images/Finance_logo.png" alt=""/></a>
                     </div>
                     <div className="col-sm-6 text-right">
                         <p>

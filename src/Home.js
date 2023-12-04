@@ -5,6 +5,7 @@ import FirstSection from './Component/firstSection';
 import MainBanner from './Component/mainBanner';
 import { OurService } from './Component/ourService';
 import Faq from './Component/Faq';
+import { OurRoadmap } from './Component/OurRoadmap';
 
 export const Home = () => {
   return (
@@ -14,8 +15,9 @@ export const Home = () => {
   <FirstSection/>
   <Availablity/>
   {/* <Team/> */}
-  <OurService/>
-  <Faq/>
+  {/* <OurService/> */}
+  <OurRoadmap/>
+  {/* <Faq/> */}
     </div>
   )
 }
