@@ -39,7 +39,7 @@ useEffect(() =>{
                     </div>
                     <div className="col-lg-6">
                         <div className="banner__thumb" data-aos="fade-up" data-aos-duration="1000">
-                            <img src="assets/images/CRN-Finance-FinTech.png" alt="banner Image" className='Finace_Digital_image'/>
+                            <img src="assets/images/Finance-FinTech-Digital.png" alt="banner Image" className='Finace_Digital_image'/>
                           
                             
                             
