@@ -1,7 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 
 export const HeaderComponent = () => {
+    const [isOpen, setIsOpen] = useState(false)
+
+    
+    
   return (
     
 		<header id="home" className="welcome-area">
@@ -20,34 +24,34 @@ export const HeaderComponent = () => {
                         <div className="mainmenu">
                             <div className="navbar navbar-nobg">
                                 <div className="navbar-header">
-                                    <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <button type="button" className="navbar-toggle" data-toggle="" data-target=".navbar-collapse" onClick={() =>{setIsOpen(!isOpen)}}>
                                         <span className="sr-only">Toggle navigation</span><span className="icon-bar"></span><span className="icon-bar"></span><span className="icon-bar"></span>
                                     </button>
                                 </div>
-                                <div className="navbar-collapse collapse">
+                                <div className={isOpen? "navbar-collapse collapse in": "navbar-collapse collapse" }>
                                     <ul className="nav navbar-nav navbar-right">
-                    <li> <Link className="linkstyle" to={"/"}>Home </Link>
+                    <li onClick={() => setIsOpen(false)}> <Link className="linkstyle" to={"/"}>Home </Link>
                     
               </li>
-              <li> <Link className="linkstyle" to={"/about"}>About us</Link>
+              <li onClick={() => setIsOpen(false)}> <Link className="linkstyle" to={"/about"}>About us</Link>
                 
               </li>
-              <li> <a href="">services </a>
+              <li onClick={() => setIsOpen(false)}> <a href="">services </a>
                
               </li>
              
-            <li> <a href="">blog </a>
+            <li onClick={() => setIsOpen(false)}> <a href="">blog </a>
                 
               </li>
-              <li> <a href="">pages </a>
+              <li onClick={() => setIsOpen(false)}> <a href="">pages </a>
              
               </li>
-              <li> <a href="#!">Shop </a>  
+              <li onClick={() => setIsOpen(false)}> <a href="#!">Shop </a>  
                
                 
                 
               </li>
-              <li> <Link className="linkstyle" to={"/contact"}>Contact us</Link>
+              <li onClick={() => setIsOpen(false)}> <Link className="linkstyle" to={"/contact"}>Contact us</Link>
                 
               </li>
              

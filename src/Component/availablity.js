@@ -1,17 +1,24 @@
-import React from 'react'
-
+import React,{useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Availablity = () => {
+
+	useEffect(() =>{
+		AOS.init({duration: 1000})
+		
+		},[])
+
   return (
     <div className="gray-bg padding ptb-xs-40">
 			<div className="container">
-				<div className="row pb-30 text-center">
+				<div className="row pb-30 text-center" data-aos="fade-down">
 					<div className="col-sm-12 mb-20">
 						<h2>Investment Plans of the Company</h2>
 						
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-sm-4">
+					<div className="col-sm-4" data-aos="fade-up">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
 								<div className='topIconContainer'>
@@ -37,7 +44,7 @@ const Availablity = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-sm-4">
+					<div className="col-sm-4" data-aos="fade-down">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
 							<div className='topIconContainer'>
@@ -59,7 +66,7 @@ const Availablity = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-sm-4">
+					<div className="col-sm-4" data-aos="fade-up">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
 							<div className='topIconContainer'>
@@ -85,7 +92,7 @@ const Availablity = () => {
 					</div>
 
 
-					<div className="col-sm-4">
+					<div className="col-sm-4" data-aos="fade-down">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
 							<div className='topIconContainer'>
@@ -115,7 +122,7 @@ const Availablity = () => {
 					</div>
 
 
-					<div className="col-sm-4">
+					<div className="col-sm-4" data-aos="fade-up">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
 							<div className='topIconContainer'>
@@ -143,7 +150,7 @@ const Availablity = () => {
 					</div>
 
 
-					<div className="col-sm-4">
+					<div className="col-sm-4" data-aos="fade-down">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
 							<div className='topIconContainer'>
@@ -171,7 +178,7 @@ const Availablity = () => {
 						</div>
 					</div>
 
-					<div className="col-sm-4">
+					<div className="col-sm-4" data-aos="fade-up">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
 								<div className="service_icon1">
@@ -198,7 +205,7 @@ const Availablity = () => {
 					</div>
 
 
-					<div className="col-sm-4">
+					<div className="col-sm-4" data-aos="fade-down">
 						<div className="text__block dark-color">
 							<div className="about__block-box">
 							<div className='topIconContainer'>

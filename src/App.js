@@ -10,6 +10,7 @@ import About from './about';
 import { Contact } from './Contact';
 
 function App() {
+
   return (
     <div className="App">
         <HeaderComponent/>
