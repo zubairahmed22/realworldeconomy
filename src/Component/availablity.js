@@ -130,7 +130,7 @@ const Availablity = () => {
 								<img src='assets/images/assettokenization.png' className='value_proposition'/>
 								</div>
 								<div className="service_details1">
-									<h3>Asset Tokenization
+									<h3>Asset <br/>Tokenization
 
 </h3>
 								</div>
@@ -185,7 +185,7 @@ const Availablity = () => {
 									<i className="hi-icon fa fa-file-text-o"></i>
 								</div>
 								<div className="service_details1">
-									<h3>Real Invest Company
+									<h3>Real Invest <br/> Company
 
 
 </h3>

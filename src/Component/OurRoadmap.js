@@ -32,7 +32,7 @@ export const OurRoadmap = () => {
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 1 </div>
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
-                    <div className="tl-content" data-aos="fade-left">
+                    <div className="tl-content" data-aos="fade-up">
                       <h4 className="tl-tile text-primary">Legal Preparation</h4>
                       <p className='roadMap_text'> Legal Consultation: Engage legal experts to understand all aspects of operating such a company.
                           Legal Risk Analysis: Conduct a comprehensive analysis of legal and financial risks.
@@ -46,7 +46,7 @@ export const OurRoadmap = () => {
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 2 </div>
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-warning"> <img src="assets/images/Finance_logo.png" className='logoicon'/></div>
-                    <div className="tl-content" data-aos="fade-right">
+                    <div className="tl-content" data-aos="fade-down">
                       <h4 className="tl-tile text-danger"> Entry into the Financial Market</h4>
                       <p className='roadMap_text'> ICO on Coinmarketcap: Launch Initial Coin Offering (ICO) on Coinmarketcap,
                          allowing investors to purchase shares in the company's profits. 
@@ -61,7 +61,7 @@ export const OurRoadmap = () => {
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 3 </div>
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-success"> <img src="assets/images/Finance_logo.png" className='logoicon'/></div>
-                    <div className="tl-content" data-aos="fade-left">
+                    <div className="tl-content" data-aos="fade-up">
                       <h4 className="tl-tile text-warning">Platform and Project Development
 </h4>
                       <p className='roadMap_text'> Platform Creation: Establish the foundational platform with the ability to sell shares,
@@ -92,7 +92,7 @@ Listing on Various Exchanges: Expand the availability of our tokens by listing <
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 5 </div>
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-success"> <img src="assets/images/Finance_logo.png" className='logoicon'/></div>
-                    <div className="tl-content" data-aos="fade-left">
+                    <div className="tl-content" data-aos="fade-down">
                       <h4 className="tl-tile text-warning">Introduction of New Products
 </h4>
                       <p className='roadMap_text'> Launch of Real Gold, Platinum, Silver: Introduce new tokenized products representing different assets (e.g., gold, platinum, silver).
@@ -108,7 +108,7 @@ Listing on Various Exchanges: Expand the availability of our tokens by listing <
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 6  </div>
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-danger"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
-                    <div className="tl-content" data-aos="fade-right">
+                    <div className="tl-content" data-aos="fade-up">
                       <h4 className="tl-tile text-success">Application and New Product Development
 </h4>
                       <p className='roadMap_text'> Launch of Real Energy, Diamonds: Introduce tokens related to energy and diamonds.
@@ -125,7 +125,7 @@ Listing on Various Exchanges: Expand the availability of our tokens by listing <
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 7 </div>
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-success"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
-                    <div className="tl-content" data-aos="fade-left">
+                    <div className="tl-content" data-aos="fade-down">
                       <h4 className="tl-tile text-warning">Future Project Proposals
 </h4>
                       <p className='roadMap_text'> Developing Projects: Propose the development of projects such as "watch to earn,

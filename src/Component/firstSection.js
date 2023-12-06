@@ -1,4 +1,6 @@
 import React,{useEffect} from 'react'
+import { Image, Box, Link,chakra,Flex} from '@chakra-ui/react'
+
 import "jquery-ui-dist/jquery-ui"
 import $ from "jquery"
 import AOS from 'aos';
@@ -16,10 +18,10 @@ const FirstSection = () => {
     <section className="services-section__block pt-90 pb-70 ptb-xs-60">
 		      <div className="container">
 			  <div className="row">
-						<div className="col-sm-4" data-aos="flip-right">
+						<div className="col-sm-4">
 							<div className="about-block img-scale  mb-xs-40 clearfix">
 								<figure>
-									<a href="#"><img className="img-responsive" src="assets/images/services/servicepng1.png" alt="Photo"/></a>
+									<a href="#"><img className="img-responsive" src="assets/images/services/value_proposition.png" alt="Photo"/></a>
 								</figure>
 								<div className="text-box mt-25">
 									<div className="box-title mb-15">
@@ -35,10 +37,10 @@ const FirstSection = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-sm-4" data-aos="flip-left">
+						<div className="col-sm-4">
 							<div className="about-block img-scale mb-xs-40 clearfix">
 								<figure>
-									<a href="#"><img className="img-responsive" src="assets/images/services/goalpng.png" alt="Photo"/></a>
+									<a href="#"><img className="img-responsive" src="assets/images/services/new_goal_pic.png" alt="Photo"/></a>
 								</figure>
 								<div className="text-box mt-25">
 									<div className="box-title mb-15">
@@ -56,7 +58,7 @@ Our goal is to facilitate investment in secure assets that might be otherwise in
 								</div>
 							</div>
 						</div>
-						<div className="col-sm-4" data-aos="flip-right">
+						<div className="col-sm-4">
 							<div className="about-block img-scale mb-xs-40 clearfix">
 								<figure>
 									<a href="#"><img className="img-responsive" src="assets/images/services/goldpng.png" alt="Photo"/></a>
@@ -77,7 +79,7 @@ Our goal is to facilitate investment in secure assets that might be otherwise in
 						</div>
 
 
-						<div className="col-sm-4" data-aos="flip-left">
+						<div className="col-sm-4" data-aos="">
 							<div className="about-block img-scale mb-xs-40 clearfix">
 								<figure>
 									<a href="#"><img className="img-responsive" src="assets/images/services/newapproch.jpg" alt="Photo"/></a>
@@ -97,6 +99,8 @@ Our goal is to facilitate investment in secure assets that might be otherwise in
 								</div>
 							</div>
 						</div>
+
+
 					</div>
 		</div>
 		</section>
