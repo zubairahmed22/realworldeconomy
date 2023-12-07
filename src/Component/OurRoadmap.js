@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Image, Box, Link,chakra,Flex,SimpleGrid, Center} from '@chakra-ui/react'
 
 export const OurRoadmap = () => {
 
@@ -32,133 +33,690 @@ export const OurRoadmap = () => {
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 1 </div>
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
-                    <div className="tl-content" data-aos="fade-up">
-                      <h4 className="tl-tile text-primary">Legal Preparation</h4>
-                      <p className='roadMap_text'> Legal Consultation: Engage legal experts to understand all aspects of operating such a company.
-                          Legal Risk Analysis: Conduct a comprehensive analysis of legal and financial risks.
- </p>
-                    </div>
+
+  <Box
+    bg="white"
+    _dark={{
+      bg: "gray.800",
+    }}
+    mx={{
+      lg: 8,
+    }}
+    display={{
+      lg: "flex",
+    }}
+    maxW={{
+      lg: "5xl",
+    }}
+    shadow={{
+      lg: "lg",
+    }}
+    rounded={{
+      lg: "lg",
+    }}
+  >
+    
+
+    <Box
+      py={12}
+      px={6}
+      maxW={{
+        base: "xl",
+        lg: "5xl",
+      }}
+      w={{
+        lg: "100%",
+      }}
+    >
+      <chakra.h2
+        fontSize={{
+          base: "2xl",
+          md: "3xl",
+        }}
+        textAlign="left"
+        color="gray.800"
+        _dark={{
+          color: "white",
+        }}
+        fontWeight="bold"
+      >
+        Legal{" "}
+        <chakra.span
+          color="brand.600"
+          _dark={{
+            color: "brand.400",
+          }}
+        >
+          Preparation
+        </chakra.span>
+      </chakra.h2>
+      <chakra.p
+        mt={4}
+        color="gray.600"
+        _dark={{
+          color: "gray.400",
+        }}
+      >
+       Legal Consultation: Engage legal experts to understand all aspects of operating such a company.
+       Legal Risk Analysis: Conduct a comprehensive analysis of legal and financial risks.
+
+      </chakra.p>
+
+      
+    </Box>
+  </Box>
+
                   </div>
                 </div>
               </div>
+
+
               <div className="tl-item alt">
                 <div className="tl-body">
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 2 </div>
-                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-warning"> <img src="assets/images/Finance_logo.png" className='logoicon'/></div>
-                    <div className="tl-content" data-aos="fade-down">
-                      <h4 className="tl-tile text-danger"> Entry into the Financial Market</h4>
-                      <p className='roadMap_text'> ICO on Coinmarketcap: Launch Initial Coin Offering (ICO) on Coinmarketcap,
-                         allowing investors to purchase shares in the company's profits. 
-                         Funds raised will be invested in platform development, projects, and marketing.
- </p>
-                    </div>
+                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
+
+  <Box
+    bg="white"
+    _dark={{
+      bg: "gray.800",
+    }}
+    mx={{
+      lg: 8,
+    }}
+    display={{
+      lg: "flex",
+    }}
+    maxW={{
+      lg: "5xl",
+    }}
+    shadow={{
+      lg: "lg",
+    }}
+    rounded={{
+      lg: "lg",
+    }}
+  >
+    
+
+    <Box
+      py={12}
+      px={6}
+      maxW={{
+        base: "xl",
+        lg: "5xl",
+      }}
+      w={{
+        lg: "100%",
+      }}
+    >
+      <chakra.h2
+        fontSize={{
+          base: "2xl",
+          md: "3xl",
+        }}
+        textAlign="left"
+        color="gray.800"
+        _dark={{
+          color: "white",
+        }}
+        fontWeight="bold"
+      >
+        Entry into the Financial
+{" "}
+        <chakra.span
+          color="brand.600"
+          _dark={{
+            color: "brand.400",
+          }}
+        >
+          Market
+        </chakra.span>
+      </chakra.h2>
+      <chakra.p
+        mt={4}
+        color="gray.600"
+        _dark={{
+          color: "gray.400",
+        }}
+      >
+       ICO on Coinmarketcap: Launch Initial Coin Offering (ICO) on Coinmarketcap,
+       allowing investors to purchase shares in the company's profits.
+       Funds raised will be invested in platform development, projects, and marketing.
+
+
+      </chakra.p>
+
+      
+    </Box>
+  </Box>
+
                   </div>
                 </div>
               </div>
+
               <div className="tl-item">
                 <div className="tl-body">
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 3 </div>
-                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-success"> <img src="assets/images/Finance_logo.png" className='logoicon'/></div>
-                    <div className="tl-content" data-aos="fade-up">
-                      <h4 className="tl-tile text-warning">Platform and Project Development
-</h4>
-                      <p className='roadMap_text'> Platform Creation: Establish the foundational platform with the ability to sell shares,
-                          wallets, and various tools for purchasing shares and tokens.
-                          Launch of the First Project: Commence the first project and sell shares associated with it.
- </p>
-                    </div>
+                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
+
+  <Box
+    bg="white"
+    _dark={{
+      bg: "gray.800",
+    }}
+    mx={{
+      lg: 8,
+    }}
+    display={{
+      lg: "flex",
+    }}
+    maxW={{
+      lg: "5xl",
+    }}
+    shadow={{
+      lg: "lg",
+    }}
+    rounded={{
+      lg: "lg",
+    }}
+  >
+    
+
+    <Box
+      py={12}
+      px={6}
+      maxW={{
+        base: "xl",
+        lg: "5xl",
+      }}
+      w={{
+        lg: "100%",
+      }}
+    >
+      <chakra.h2
+        fontSize={{
+          base: "2xl",
+          md: "3xl",
+        }}
+        textAlign="left"
+        color="gray.800"
+        _dark={{
+          color: "white",
+        }}
+        fontWeight="bold"
+      >
+       Platform and Project {" "}
+        <chakra.span
+          color="brand.600"
+          _dark={{
+            color: "brand.400",
+          }}
+        >
+          Development
+        </chakra.span>
+      </chakra.h2>
+      <chakra.p
+        mt={4}
+        color="gray.600"
+        _dark={{
+          color: "gray.400",
+        }}
+      >
+     Platform Creation: Establish the foundational platform with the ability to sell shares, wallets, 
+     and various tools for purchasing shares and tokens.
+     Launch of the First Project: Commence the first project and sell shares associated with it.
+
+
+      </chakra.p>
+
+      
+    </Box>
+  </Box>
+
                   </div>
                 </div>
               </div>
+      
+
               <div className="tl-item alt">
                 <div className="tl-body">
                   <div className="tl-entry">
-                    <div className="tl-time"> Phase 4  </div>
-                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-danger"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
-                    <div className="tl-content" data-aos="fade-right">
-                      <h4 className="tl-tile text-success">Expansion to Cryptocurrency Exchanges</h4>
-                      <p className='roadMap_text'> Listing on Coinmarketcap and Coingecko: Add our company to Coinmarketcap and Coingecko platforms.
-Listing on Various Exchanges: Expand the availability of our tokens by listing </p>
-                    </div>
+                    <div className="tl-time"> Phase 4 </div>
+                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
+
+  <Box
+    bg="white"
+    _dark={{
+      bg: "gray.800",
+    }}
+    mx={{
+      lg: 8,
+    }}
+    display={{
+      lg: "flex",
+    }}
+    maxW={{
+      lg: "5xl",
+    }}
+    shadow={{
+      lg: "lg",
+    }}
+    rounded={{
+      lg: "lg",
+    }}
+  >
+    
+
+    <Box
+      py={12}
+      px={6}
+      maxW={{
+        base: "xl",
+        lg: "5xl",
+      }}
+      w={{
+        lg: "100%",
+      }}
+    >
+      <chakra.h2
+        fontSize={{
+          base: "2xl",
+          md: "3xl",
+        }}
+        textAlign="left"
+        color="gray.800"
+        _dark={{
+          color: "white",
+        }}
+        fontWeight="bold"
+      >
+        Expansion to Cryptocurrency 
+{" "}
+        <chakra.span
+          color="brand.600"
+          _dark={{
+            color: "brand.400",
+          }}
+        >
+         Exchanges
+        </chakra.span>
+      </chakra.h2>
+      <chakra.p
+        mt={4}
+        color="gray.600"
+        _dark={{
+          color: "gray.400",
+        }}
+      >
+     Listing on Coinmarketcap and Coingecko: Add our company to Coinmarketcap and Coingecko platforms.
+     Listing on Various Exchanges: Expand the availability of our tokens by listing them on various cryptocurrency exchanges.
+
+
+
+      </chakra.p>
+
+      
+    </Box>
+  </Box>
+
                   </div>
                 </div>
               </div>
 
 
+            
               <div className="tl-item">
                 <div className="tl-body">
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 5 </div>
-                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-success"> <img src="assets/images/Finance_logo.png" className='logoicon'/></div>
-                    <div className="tl-content" data-aos="fade-down">
-                      <h4 className="tl-tile text-warning">Introduction of New Products
-</h4>
-                      <p className='roadMap_text'> Launch of Real Gold, Platinum, Silver: Introduce new tokenized products representing different assets (e.g., gold, platinum, silver).
-                          Introduction of Real House: Tokenization of real estate. </p>
+                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
 
-                    </div>
+  <Box
+    bg="white"
+    _dark={{
+      bg: "gray.800",
+    }}
+    mx={{
+      lg: 8,
+    }}
+    display={{
+      lg: "flex",
+    }}
+    maxW={{
+      lg: "5xl",
+    }}
+    shadow={{
+      lg: "lg",
+    }}
+    rounded={{
+      lg: "lg",
+    }}
+  >
+    
+
+    <Box
+      py={12}
+      px={6}
+      maxW={{
+        base: "xl",
+        lg: "5xl",
+      }}
+      w={{
+        lg: "100%",
+      }}
+    >
+      <chakra.h2
+        fontSize={{
+          base: "2xl",
+          md: "3xl",
+        }}
+        textAlign="left"
+        color="gray.800"
+        _dark={{
+          color: "white",
+        }}
+        fontWeight="bold"
+      >
+      Introduction of New  {" "}
+        <chakra.span
+          color="brand.600"
+          _dark={{
+            color: "brand.400",
+          }}
+        >
+          Products
+        </chakra.span>
+      </chakra.h2>
+      <chakra.p
+        mt={4}
+        color="gray.600"
+        _dark={{
+          color: "gray.400",
+        }}
+      >
+     Platform Creation: Establish the foundational platform with the ability to sell shares, wallets, 
+     and various tools for purchasing shares and tokens.
+     Launch of the First Project: Commence the first project and sell shares associated with it.
+
+
+      </chakra.p>
+
+      
+    </Box>
+  </Box>
+
                   </div>
                 </div>
               </div>
+              
+
 
               <div className="tl-item alt">
                 <div className="tl-body">
                   <div className="tl-entry">
-                    <div className="tl-time"> Phase 6  </div>
-                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-danger"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
-                    <div className="tl-content" data-aos="fade-up">
-                      <h4 className="tl-tile text-success">Application and New Product Development
-</h4>
-                      <p className='roadMap_text'> Launch of Real Energy, Diamonds: Introduce tokens related to energy and diamonds.
-                          Creation of Real Bank: Establish our own bank/marketplace.
-                          Introduction of Own Currencies: Launch proprietary currencies such as Real USD, Real EURO, Real PLN, based on market needs.
- </p>
-                    </div>
+                    <div className="tl-time"> Phase 6 </div>
+                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
+
+  <Box
+    bg="white"
+    _dark={{
+      bg: "gray.800",
+    }}
+    mx={{
+      lg: 8,
+    }}
+    display={{
+      lg: "flex",
+    }}
+    maxW={{
+      lg: "5xl",
+    }}
+    shadow={{
+      lg: "lg",
+    }}
+    rounded={{
+      lg: "lg",
+    }}
+  >
+    
+
+    <Box
+      py={12}
+      px={6}
+      maxW={{
+        base: "xl",
+        lg: "5xl",
+      }}
+      w={{
+        lg: "100%",
+      }}
+    >
+      <chakra.h2
+        fontSize={{
+          base: "2xl",
+          md: "3xl",
+        }}
+        textAlign="left"
+        color="gray.800"
+        _dark={{
+          color: "white",
+        }}
+        fontWeight="bold"
+      >
+       Application and New Product 
+{" "}
+        <chakra.span
+          color="brand.600"
+          _dark={{
+            color: "brand.400",
+          }}
+        >
+         Development
+        </chakra.span>
+      </chakra.h2>
+      <chakra.p
+        mt={4}
+        color="gray.600"
+        _dark={{
+          color: "gray.400",
+        }}
+      >
+     Listing on Coinmarketcap and Coingecko: Add our company to Coinmarketcap and Coingecko platforms.
+     Listing on Various Exchanges: Expand the availability of our tokens by listing them on various cryptocurrency exchanges.
+
+
+
+      </chakra.p>
+
+      
+    </Box>
+  </Box>
+
                   </div>
                 </div>
               </div>
+
 
               <div className="tl-item">
                 <div className="tl-body">
                   <div className="tl-entry">
                     <div className="tl-time"> Phase 7 </div>
-                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-success"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
-                    <div className="tl-content" data-aos="fade-down">
-                      <h4 className="tl-tile text-warning">Future Project Proposals
-</h4>
-                      <p className='roadMap_text'> Developing Projects: Propose the development of projects such as "watch to earn,
-                        " "play to earn," proprietary exchange, proprietary bank,
-                         viewing real estate data in the virtual world, advancing Web 3.0, masternodes, etc.
+                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
 
- </p>
-                    </div>
+  <Box
+    bg="white"
+    _dark={{
+      bg: "gray.800",
+    }}
+    mx={{
+      lg: 8,
+    }}
+    display={{
+      lg: "flex",
+    }}
+    maxW={{
+      lg: "5xl",
+    }}
+    shadow={{
+      lg: "lg",
+    }}
+    rounded={{
+      lg: "lg",
+    }}
+  >
+    
+
+    <Box
+      py={12}
+      px={6}
+      maxW={{
+        base: "xl",
+        lg: "5xl",
+      }}
+      w={{
+        lg: "100%",
+      }}
+    >
+      <chakra.h2
+        fontSize={{
+          base: "2xl",
+          md: "3xl",
+        }}
+        textAlign="left"
+        color="gray.800"
+        _dark={{
+          color: "white",
+        }}
+        fontWeight="bold"
+      >
+      Future Project   {" "}
+        <chakra.span
+          color="brand.600"
+          _dark={{
+            color: "brand.400",
+          }}
+        >
+         Proposals
+        </chakra.span>
+      </chakra.h2>
+      <chakra.p
+        mt={4}
+        color="gray.600"
+        _dark={{
+          color: "gray.400",
+        }}
+      >
+     Developing Projects: Propose the development of projects such as "watch to earn," "play to earn," 
+     proprietary exchange, proprietary bank, viewing real estate data in the virtual world, advancing Web 3.0, masternodes, etc.
+
+
+
+      </chakra.p>
+
+      
+    </Box>
+  </Box>
+
                   </div>
                 </div>
               </div>
-
 
               <div className="tl-item alt">
                 <div className="tl-body">
                   <div className="tl-entry">
-                    <div className="tl-time"> Phase 8  </div>
-                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-danger"><img src="assets/images/Finance_logo.png" className='logoicon'/></div>
-                    <div className="tl-content" data-aos="fade-up">
-                      <h4 className="tl-tile text-success">Infrastructure Expansion</h4>
-                      <p className='roadMap_text'> Websites and Wallets: Expand websites and cryptocurrency wallets.
-                          Expand Exchanges and Liquidity on Pancake: Increase token availability on different exchanges and enhance liquidity on the Pancake platform.
-                          Integration with Cryptocurrency Bridges: Connect our site with various bridges enabling the exchange of other cryptocurrencies for our tokens.
- </p>
-                    </div>
+                    <div className="tl-time"> Phase 8 </div>
+                    <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
+
+  <Box
+    bg="white"
+    _dark={{
+      bg: "gray.800",
+    }}
+    mx={{
+      lg: 8,
+    }}
+    display={{
+      lg: "flex",
+    }}
+    maxW={{
+      lg: "5xl",
+    }}
+    shadow={{
+      lg: "lg",
+    }}
+    rounded={{
+      lg: "lg",
+    }}
+  >
+    
+
+    <Box
+      py={12}
+      px={6}
+      maxW={{
+        base: "xl",
+        lg: "5xl",
+      }}
+      w={{
+        lg: "100%",
+      }}
+    >
+      <chakra.h2
+        fontSize={{
+          base: "2xl",
+          md: "3xl",
+        }}
+        textAlign="left"
+        color="gray.800"
+        _dark={{
+          color: "white",
+        }}
+        fontWeight="bold"
+      >
+       Infrastructure 
+{" "}
+        <chakra.span
+          color="brand.600"
+          _dark={{
+            color: "brand.400",
+          }}
+        >
+         Expansion
+        </chakra.span>
+      </chakra.h2>
+      <chakra.p
+        mt={4}
+        color="gray.600"
+        _dark={{
+          color: "gray.400",
+        }}
+      >
+     
+Websites and Wallets: Expand websites and cryptocurrency wallets.
+Expand Exchanges and Liquidity on Pancake: Increase token availability on different exchanges and enhance liquidity on the Pancake platform.
+
+
+
+
+      </chakra.p>
+
+      
+    </Box>
+  </Box>
+
                   </div>
                 </div>
               </div>
+              
+          </div>  
+         </div>
+          </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+    
   )
 }

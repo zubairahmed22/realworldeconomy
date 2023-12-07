@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react'
-import { Image, Box, Link,chakra,Flex,SimpleGrid, WrapItem} from '@chakra-ui/react'
+import { Image, Box, Link,chakra,Flex,SimpleGrid, AbsoluteCenter} from '@chakra-ui/react'
 
 import "jquery-ui-dist/jquery-ui"
 import $ from "jquery"
@@ -296,9 +296,12 @@ Our goal is to facilitate investment in secure assets that might be otherwise in
       </Box>
     </Box>
   </Box>
+ 
+
   <Box
     mx="auto"
-    flexBasis="33.333333%"
+   
+    position="relative"
 	
     rounded="lg"
     shadow="md"
