@@ -1,0 +1,245 @@
+
+.Rightdev1{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    overflow: auto;
+    max-height: 100vh;
+    justify-content: center;
+    
+    
+}
+
+.firtone{
+    
+    background-color: white;
+    width: 512px;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    margin-top: 75px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.Birdgetext{
+    display: flex;
+    gap: 10px;
+}
+.bgDiv{
+    display: flex;
+    width: 95%;
+    background-color: rgb(236, 233, 233);
+    padding: 5px;
+    border-radius: 10px;
+}
+.bgDiv > .button1{
+    border: none;
+    background-color: white;
+    color: #4f4b5c;
+
+    width: 50%;
+    gap: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.bgDiv > button{
+    border: none;
+    color: #4f4b5c;
+
+    width: 50%;
+    
+    
+    
+}
+
+.divone{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 10px;
+}
+.divone > img{
+    width: 20px;
+}
+.divone > h4 {
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.43;
+    color: hsl(254, 10%, 33%);
+}
+.secondone > p, span {
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #8d8a95;
+    margin-right: 10px;
+    
+}
+.secondone > span {
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #8d8a95;
+    margin-right: 10px;
+    gap: 8px;
+}
+.transfer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 1.3333;
+    color: #8d8a95;
+    
+}
+.etherum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #f3f3f4;
+    margin-top: 10px;
+    border-radius: 12px 12px 0px 0px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.secondEthereum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #f3f3f4;
+    border-radius: 0px 0px 12px 12px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0
+}
+.leftEthereum{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    border: 1px;
+}
+.leftEthereum > img{
+ width: 20px;
+}
+.leftEthereum > span{
+    margin: 0 0 0 8px;
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.43;
+    color: #4f4b5c;
+}
+.RightEthereum{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.RightEthereum > span{
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #4f4b5c;
+    margin: 0 12px;
+    outline: none;
+}
+.BtnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+.BtnContainer > button {
+    border-radius: 6px;
+    border: 1px solid #ececed;
+    font-size: .5rem;
+    font-weight: 500;
+    line-height: 1.25;
+    padding: 4px 8px;
+    font-size: .75rem;
+    line-height: 1.33;
+}
+.tranferTwo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 1.33;
+    color: #8d8a95;
+
+}
+.boxi{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 10px;
+  
+}
+.boxi > p{
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1.43;
+    color: #4f4b5c;
+}
+.mainBox{
+width: 90%;
+height: 35px;
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 9px 0;
+width: 100%;
+background-color: #f3f3f4;
+border-radius: 12px;
+
+}
+.mainBox > p {
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #8d8a95;
+}
+.mainBox > span {
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #8d8a95;
+}
+.lastDiv{
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: unset;
+    outline: unset;
+    cursor: pointer;
+
+    margin-top: 15px;
+    background-color: #e2e2e4;
+    color: #b3b1b8;
+    cursor: not-allowed;
+
+}

@@ -33,22 +33,23 @@ export const HeaderComponent = () => {
                     <li onClick={() => setIsOpen(false)}> <Link className="linkstyle" to={"/"}>Home </Link>
                     
               </li>
+              
+              
+               
+              <li onClick={() => setIsOpen(false)}> <Link to="/freesale">PreSale  </Link> 
+               
+                
+                
+               </li>
+             
+            <li onClick={() => setIsOpen(false)}><Link className="linkstyle" to={"/team"}> Team </Link>
+                
+              </li>
+              
+             
+    
+             
               <li onClick={() => setIsOpen(false)}> <Link className="linkstyle" to={"/about"}>About us</Link>
-                
-              </li>
-              <li onClick={() => setIsOpen(false)}> <a href="">services </a>
-               
-              </li>
-             
-            <li onClick={() => setIsOpen(false)}> <a href="">blog </a>
-                
-              </li>
-              <li onClick={() => setIsOpen(false)}> <a href="">pages </a>
-             
-              </li>
-              <li onClick={() => setIsOpen(false)}> <a href="#!">Shop </a>  
-               
-                
                 
               </li>
               <li onClick={() => setIsOpen(false)}> <Link className="linkstyle" to={"/contact"}>Contact us</Link>

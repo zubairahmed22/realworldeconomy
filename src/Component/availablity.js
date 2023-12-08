@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react'
-import { Image, Box, Link,chakra,Flex,SimpleGrid, Center} from '@chakra-ui/react'
+import { Image, Box, Link,chakra,Flex,SimpleGrid} from '@chakra-ui/react'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -1128,9 +1128,9 @@ Our tokens differ from standard stablecoins, as their value will increase with t
 </SimpleGrid>; */}
 
 <SimpleGrid columns={3}  py={6} ml={10}
-            
-            spacing={20}
-            flexWrap="wrap"
+           minChildWidth="250px"
+           spacing={20}
+           flexWrap="wrap"
             
 >
   <Box

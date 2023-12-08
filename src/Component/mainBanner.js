@@ -31,8 +31,10 @@ useEffect(() =>{
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-6">
                         <div className="banner__content" data-aos="fade-down" data-aos-duration="1000">
-                            <h1 className="text-uppercase">Real World<br/> Invest Company was created  <br/><span>with the idea of bridging the real world with the virtual world</span></h1>
-                            <p className='HeroPtage'>enabling both investors and ordinary people to invest in secure assets. Our mission is to create a better, more just world of investments without limits, providing an easy, transparent, and secure way of investing.
+                            <h1 className="text-uppercase">Real World Invest Company  </h1>
+
+                           <h3 style={{ color: "white", textAlign: "left"}}> Created with the idea of bridging the real world with the virtual world</h3>
+                            <p className='HeroPtage'>Enabling both investors and ordinary people to invest in secure assets. Our mission is to create a better, more just world of investments without limits, providing an easy, transparent, and secure way of investing.
 </p>
                            
                         </div>

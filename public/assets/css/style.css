@@ -2154,11 +2154,11 @@ nav .btn-text {
 	text-align: left;
 	padding-top: 50px;
 }
-.bg-img {
+/* .bg-img {
 	background: url(../images/bg_1.jpg) 0 36% no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-}
+} */
 .overlay-before{
 	position: relative;
     z-index: 1;
