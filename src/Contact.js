@@ -6,7 +6,7 @@ export const Contact = () => {
     <section className="inner-intro bg-img light-color overlay-before parallax-background">
     <div className="container">
       <div className="row title">
-        <h1 data-title="contact"><span>contact</span></h1>
+<h1>contact</h1>
       </div>
     </div>
   </section>

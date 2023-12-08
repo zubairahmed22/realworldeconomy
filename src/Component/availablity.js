@@ -1155,7 +1155,7 @@ Our tokens differ from standard stablecoins, as their value will increase with t
       <Image
         w={20}
         h={20}
-        fit="contain"
+        fit="cover"
         justifySelf="center"
         ml="20px"
         rounded="full"
@@ -1166,7 +1166,7 @@ Our tokens differ from standard stablecoins, as their value will increase with t
           color: "brand.400",
         }}
         alt="Testimonial avatar"
-        src='assets/images/tokenizaiton.png'
+        src='assets/images/icon3.png'
       />
     </Flex>
 
@@ -1228,7 +1228,7 @@ Our tokens differ from standard stablecoins, as their value will increase with t
       <Image
         w={20}
         h={20}
-        fit="contain"
+        fit="cover"
         position="center"
         ml={20}
         rounded="full"
@@ -1239,7 +1239,7 @@ Our tokens differ from standard stablecoins, as their value will increase with t
           color: "brand.400",
         }}
         alt="Testimonial avatar"
-      	src='assets/images/technological.png'
+      	src='assets/images/icon5.png'
       />
     </Flex>
 
@@ -1300,7 +1300,7 @@ Our tokens differ from standard stablecoins, as their value will increase with t
       <Image
         w={20}
         h={20}
-        fit="contain"
+        fit="cover"
         position="center"
         ml={20}
         rounded="full"
@@ -1311,7 +1311,7 @@ Our tokens differ from standard stablecoins, as their value will increase with t
           color: "brand.400",
         }}
         alt="Testimonial avatar"
-        src='assets/images/development_fund.png' 
+        src='assets/images/icon2.png' 
       />
     </Flex>
 
@@ -1373,7 +1373,7 @@ Our tokens differ from standard stablecoins, as their value will increase with t
       <Image
         w={20}
         h={20}
-        fit="contain"
+        fit="cover"
         alignItems="center"
         rounded="full"
         borderStyle="solid"
@@ -1384,7 +1384,7 @@ Our tokens differ from standard stablecoins, as their value will increase with t
           color: "brand.400",
         }}
         alt="Testimonial avatar"
-        src='assets/images/assetsinvestment.png'
+        src='assets/images/icon1.png'
       />
     </Flex>
 
@@ -1454,7 +1454,7 @@ Our tokens differ from standard stablecoins, as their value will increase with t
           color: "brand.400",
         }}
         alt="Testimonial avatar"
-        src='assets/images/assettokenization.png'
+        src='assets/images/icon8.png'
       />
     </Flex>
 
@@ -1525,7 +1525,7 @@ Asset Tokenization
           color: "brand.400",
         }}
         alt="Testimonial avatar"
-        src='assets/images/communitygroup.png' 
+        src='assets/images/icon7.png'
       />
     </Flex>
 
@@ -1597,7 +1597,7 @@ We are building a community that can propose asset tokenization and vote on deci
           color: "brand.400",
         }}
         alt="Testimonial avatar"
-        src='assets/images/expantion.png' 
+        src='assets/images/icon.png' 
       />
     </Flex>
 

@@ -18,7 +18,7 @@ const freeSale = () => {
         <section className="inner-intro  padding bg-img1 overlay-dark light-color">
 				<div className="container">
 					<div className="row title">
-						<h1>Free Sale</h1>
+						<h1>PreSale</h1>
 						<div className="page-breadcrumb">
 							
 						</div>

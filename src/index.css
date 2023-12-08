@@ -474,7 +474,11 @@ code {
 
 h2 span {
   color: #daa106;
-  font-size: 30px;
+  font-size: 20px;
+
+}
+span.OutTeamtag {
+  font-size: 32px;
 }
 
 #footer-widgets .widget .widget-title > span::after {

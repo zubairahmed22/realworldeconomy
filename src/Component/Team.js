@@ -18,7 +18,7 @@ export const Team = () => {
 					<div className="row title">
 						<h1>Team</h1>
 						<div className="page-breadcrumb">
-							<a>Home</a>/ <span>Team</span>
+							
 						</div>
 					</div>
 				</div>
@@ -35,7 +35,7 @@ export const Team = () => {
 									<div class="row text-center pb-30">
 										<div class="col-sm-12">
 											<div class="heading-box ">
-												<h2><span>Our</span> Team</h2>
+												<h2><span className='OutTeamtag'>Our</span> Team</h2>
 												<span class="b-line"></span>
 											</div>
 										</div>

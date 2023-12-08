@@ -7,7 +7,7 @@ const about = () => {
 <section className="inner-intro bg-img light-color overlay-before parallax-background">
     <div className="container">
       <div className="row title">
-        <h1 data-title="About"><span>About</span></h1>
+        <h1>About</h1>
       </div>
     </div>
   </section>
@@ -59,7 +59,7 @@ const about = () => {
 
 						</div>
 						<div className="col-sm-6">
-							<img className="img-responsive" src="assets/images/people2.jpg" alt="Photo"/>
+							<img className="img-responsive" src="assets/images/about_logo.png" alt="Photo"/>
 						</div>
 
 					</div>

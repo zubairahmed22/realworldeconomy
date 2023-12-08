@@ -11,17 +11,7 @@ const Footer = () => {
     <div className="main_footer__block pb-0 pt-60">
         <div className="container">
             <div className="row">
-                <div className="col-md-3">
-                    <div className="footer_box__block">
-                        <h4>About Us</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, architecto, asperiores. Recusandae ea a culpa eligendi, harum amet cumque quod.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sequi, fuga rem aperiam expedita ipsum.
-                        </p>
-                    </div>
-                </div>
+               
                 <div className="col-md-3">
                     <div className="footer_box__block">
                         <h4>Latest Blog Post</h4>
