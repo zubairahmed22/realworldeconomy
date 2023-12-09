@@ -13,7 +13,7 @@ const Availablity = () => {
   return (
     <div className="gray-bg padding ptb-xs-40">
 			<div className="container">
-				<div className="row pb-30 text-center" data-aos="fade-down">
+				<div className="row pb-30 text-center" >
 					<div className="col-sm-12 mb-20">
 						<h2>Investment Plans of the Company</h2>
 						
@@ -1131,6 +1131,7 @@ Our tokens differ from standard stablecoins, as their value will increase with t
            minChildWidth="250px"
            spacing={20}
            flexWrap="wrap"
+           
             
 >
   <Box

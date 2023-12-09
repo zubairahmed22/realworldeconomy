@@ -1,11 +1,11 @@
 import React,{useEffect} from 'react'
-import { Image, Box, Link,chakra,Flex,SimpleGrid, AbsoluteCenter} from '@chakra-ui/react'
+import { Image, Box, Link,chakra,Flex,SimpleGrid} from '@chakra-ui/react'
 
 import "jquery-ui-dist/jquery-ui"
 import $ from "jquery"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { wrap } from 'framer-motion';
+
 
 const FirstSection = () => {
 
@@ -103,7 +103,9 @@ Our goal is to facilitate investment in secure assets that might be otherwise in
 						<SimpleGrid columns={3}  py={6} ml={10}
             minChildWidth="250px"
             spacing={20}
+            
             flexWrap="wrap"
+            
             
   
 >
@@ -366,7 +368,75 @@ Our goal is to facilitate investment in secure assets that might be otherwise in
   </Box>
 
   
+ 
+  <Box
+    mx="auto"
+   
+    position="relative"
+	
+    rounded="lg"
+    shadow="md"
+    bg="white"
+    _dark={{
+      bg: "gray.800",
+    }}
+    maxW="2xl"
+  >
+    
+    <Image
+      roundedTop="lg"
+      w="full"
+      h={64}
+      fit="cover"
+      src="assets/images/services/summery.jpg"
+      alt="Article"
+    />
+    <Box p={6}>
+      <Box>
+        
+        <Link
+          display="block"
+          color="gray.800"
+          _dark={{
+            color: "white",
+          }}
+          fontWeight="bold"
+          fontSize="2xl"
+          mt={2}
+          _hover={{
+            color: "gray.600",
+            textDecor: "underline",
+          }}
+        >
+         
+        Summary
 
+        </Link>
+        <chakra.p
+          mt={2}
+          fontSize="medium"
+          color="gray.600"
+          _dark={{
+            color: "gray.400",
+          }}
+        >
+         Our company aspires to create a world of investments that is accessible to everyone, transparent,
+         and based on real assets. We aim to provide investors and ordinary individuals with an opportunity to benefit from secure investments that yield real profits while eliminating the risk of fund loss. Our vision is a future of investments that is more sustainable,
+         democratic, and grounded in the values of real assets. 
+        </chakra.p>
+      </Box>
+
+      <Box mt={4}>
+        <Flex alignItems="center">
+          <Flex alignItems="center">
+           
+            
+          </Flex>
+          
+        </Flex>
+      </Box>
+    </Box>
+  </Box>
 
 </SimpleGrid>;
 
