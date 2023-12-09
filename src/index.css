@@ -583,7 +583,7 @@ h2 {
 
 @media only screen and (max-width: 350px){
   .css-ilyd0k {
-    width: 270px !important;
+    width: 260px !important;
     -webkit-margin-start: auto;
     margin-inline-start: auto;
     -webkit-margin-end: auto;
@@ -601,7 +601,25 @@ h2 {
 }
 }
 
-
+@media only screen and (max-width: 420px){
+  .css-ilyd0k {
+    width: 270px !important;
+    -webkit-margin-start: auto;
+    margin-inline-start: auto;
+    -webkit-margin-end: auto;
+    margin-inline-end: auto;
+    padding-top: var(--chakra-space-4);
+    padding-bottom: var(--chakra-space-4);
+    -webkit-padding-start: var(--chakra-space-8);
+    padding-inline-start: var(--chakra-space-8);
+    -webkit-padding-end: var(--chakra-space-8);
+    padding-inline-end: var(--chakra-space-8);
+    background: var(--chakra-colors-white);
+    box-shadow: var(--chakra-shadows-lg);
+    border-radius: var(--chakra-radii-lg);
+    justify-content: center;
+}
+}
 
 @media only screen and (max-width: 767px){
   .navbar-toggle .icon-bar {
