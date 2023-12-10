@@ -389,7 +389,7 @@ Our goal is to facilitate investment in secure assets that might be otherwise in
       w="full"
       h={64}
       fit="cover"
-      src="assets/images/services/summery.jpg"
+      src="assets/images/services/summery1.png"
       alt="Article"
     />
     <Box p={6}>
