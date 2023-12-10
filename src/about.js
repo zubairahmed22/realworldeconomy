@@ -16,7 +16,7 @@ const about = () => {
 					<div className="row">
 						<div className="col-sm-12">
 							<div className="heading-box pb-30">
-								<h2><span>Company</span> Overview</h2>
+								<h2><span> REAL WORLD</span><br/> INVEST COMPANY</h2>
 								
 							</div>
 						</div>
@@ -27,12 +27,15 @@ const about = () => {
 
 							<div className="text-content">
 								<p>
-									<strong>Aenean suscipit eget mi act fermentum phasellus vulputate</strong> turpis tincidunt. Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt.
-									Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt.
-								</p>
+									<strong>Goal: Real World Invest Company is a platform enabling the purchase and trade of tokens based on real assets</strong> , eliminating the risk of fund loss for holders.
+									 The main goal is to create a secure investment space where digital assets are tangible. </p>
+
 								<p>
-									Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt.
-									Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt. Aenean suscipit eget mi act fermentum phasellus vulputate turpis tincidunt.
+								Real World Invest Company offers an innovative business model, combining secure investments,
+								 asset development, global impact, 
+								and fair profit-sharing for token holders. The platform is based on real assets,
+								 eliminating virtuality and increasing attractiveness for investors.
+
 								</p>
 							</div>
 							<h4>Our smart approach</h4>

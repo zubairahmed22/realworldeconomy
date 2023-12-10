@@ -17,6 +17,12 @@ img.img-responsive {
 
   border-radius: 5px 5px 0px 0px;
 }
+#footer-widgets .widget.widget_links ul.col2 li {
+  width: 50%;
+  float: left;
+  padding: 0 0 10px;
+  text-align: left;
+}
 .about-block.img-scale.mb-xs-40.clearfix {
   background-color: #79accd;
   /* box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19); */
@@ -188,11 +194,13 @@ img.logoicon {
 .textcontainer.aos-init > h2 {
   /* background-color: white; */
   color: white;
+  font-size: 35px;
 }
 
 .col-sm-12.mb-20 > h2 {
   /* background-color: white; */
   color: white;
+  font-size: 35px;
 }
 .text-warning {
   color: #d86935;
@@ -263,8 +271,27 @@ p.roadMap_text {
   box-shadow: 0 6px 14px -5px rgba(0, 0, 0, 0.06);
   box-shadow: 0 6px 14px -5px rgba(0, 0, 0, 0.06);
 }
+.work__item {
+  padding-bottom: 20px;
+}
+.col-sm-12 > h4 {
+  margin-top: 70px !important;
+  font-size: 25px;
+  font-weight: 800;
+}
+.row.justify-content-center.g-4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
-
+.work__item-content > h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+}
 
 .about__block-box {
     position: relative;
@@ -296,6 +323,23 @@ p.roadMap_text {
   /* background-color: gray; */
   text-align: left;
 }
+.contact-form input[type="text"] {
+  display: block;
+  height: 46px;
+  margin-bottom: 32px;
+  width: 100%;
+  font-size: 14px;
+  padding: 0 15px;
+  border: 1px solid #e5e5e5;
+  color: #878787;
+  background: transparent;
+  -webkit-appearance: none;
+  border-radius: 5px;
+}
+
+.col-sm-12 > h4 {
+  font-size: 25px;
+}
 h3, h4, h4, h6 {
   font-family: 'Raleway', sans-serif;
   margin-top: 10px;
@@ -310,8 +354,18 @@ box.mt-25 {
 img.Finace_Digital_image {
   margin-top: 100px;
 }
+
+.work__item-thumb {
+  display: flex;
+  justify-content: center;
+}
+.work__item-content > p {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
 .text-uppercase {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 52px;
   text-align: start;
   color: #ffffff;
@@ -560,7 +614,24 @@ span.OutTeamtag {
   width: 60px;
   height: 3px;
   background-color: #d45838;
-  margin-left: 110px;
+  /* margin-left: 110px; */
+}
+#footer-widgets .widget.widget_links ul li a:before {
+  color: #ffffff;
+}
+#footer-widgets .widget .widget-title > span {
+  display: block;
+  position: relative;
+  padding-bottom: 12px;
+  color: #fff;
+  text-align: left;
+}
+.socials {
+  text-align: left;
+}
+.mt-30 {
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 h2 {
   font-size: 32px;
@@ -599,6 +670,24 @@ h2 {
     border-radius: var(--chakra-radii-lg);
     justify-content: center;
 }
+.css-azfwg8 {
+  color: var(--chakra-colors-gray-800);
+  font-size: var(--chakra-fontSizes-2xl);
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: var(--chakra-fontWeights-bold);
+  margin-top: 15px;
+}
+.css-561rdw {
+  color: var(--chakra-colors-gray-800);
+  font-size: var(--chakra-fontSizes-2xl);
+  text-align: left;
+  font-weight: var(--chakra-fontWeights-bold);
+  margin-top: 15px !important
+}
 }
 
 @media only screen and (max-width: 420px){
@@ -619,6 +708,24 @@ h2 {
     border-radius: var(--chakra-radii-lg);
     justify-content: center;
 }
+.css-azfwg8 {
+  color: var(--chakra-colors-gray-800);
+  font-size: var(--chakra-fontSizes-2xl);
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: var(--chakra-fontWeights-bold);
+  margin-top: 15px;
+}
+.css-561rdw {
+  color: var(--chakra-colors-gray-800);
+  font-size: var(--chakra-fontSizes-2xl);
+  text-align: left;
+  font-weight: var(--chakra-fontWeights-bold);
+  margin-top: 15px !important;
+}
 }
 
 @media only screen and (max-width: 767px){
@@ -626,7 +733,24 @@ h2 {
     background:  #d86832 !important;
     
 }
-
+.css-azfwg8 {
+  color: var(--chakra-colors-gray-800);
+  font-size: var(--chakra-fontSizes-2xl);
+  text-align: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: var(--chakra-fontWeights-bold);
+  margin-top: 15px;
+}
+.css-561rdw {
+  color: var(--chakra-colors-gray-800);
+  font-size: var(--chakra-fontSizes-2xl);
+  text-align: left;
+  font-weight: var(--chakra-fontWeights-bold);
+  margin-top: 15px !important;
+}
 .css-ilyd0k {
   width: 350px;
   margin-inline: auto;
