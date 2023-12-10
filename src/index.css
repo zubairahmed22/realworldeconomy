@@ -344,7 +344,10 @@ p.roadMap_text {
   /* background-color: gray; */
   text-align: left;
 }
-
+#footer-widgets .widget.widget_socials .socials a:hover:before {
+  background-color: #d66b40;
+  border-color: #d66b40;
+}
 .textcontainer > h2 > span {
   color: white;
 }
