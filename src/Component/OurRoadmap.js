@@ -6,7 +6,7 @@ import { Image, Box, Link,chakra,Flex,SimpleGrid, Center} from '@chakra-ui/react
 export const OurRoadmap = () => {
 
   useEffect(() =>{
-		AOS.init({duration: 1000})
+		AOS.init({duration: 2000})
 		
 		},[])
 
@@ -16,7 +16,7 @@ export const OurRoadmap = () => {
       
       <div className="row">
         <div className='textcontainer'>
-      <h2 style={{textAlign: "center"}}>Roadmap Company Development Plan</h2>
+      <h2 style={{textAlign: "center"}}>Roadmap <br/> <span>Company Development Plan </span></h2>
       </div>
         <div className="col-sm-12">
           <div className="ui-timline-container">
@@ -35,6 +35,7 @@ export const OurRoadmap = () => {
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
 
   <Box
+  data-aos="fade-up"
     bg="white"
     _dark={{
       bg: "gray.800",
@@ -118,6 +119,7 @@ export const OurRoadmap = () => {
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
 
   <Box
+  data-aos="fade-down"
     bg="white"
     _dark={{
       bg: "gray.800",
@@ -203,6 +205,7 @@ export const OurRoadmap = () => {
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
 
   <Box
+  data-aos="fade-up"
     bg="white"
     _dark={{
       bg: "gray.800",
@@ -288,6 +291,7 @@ export const OurRoadmap = () => {
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
 
   <Box
+  data-aos="fade-down"
     bg="white"
     _dark={{
       bg: "gray.800",
@@ -375,6 +379,7 @@ export const OurRoadmap = () => {
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
 
   <Box
+  data-aos="fade-up"
     bg="white"
     _dark={{
       bg: "gray.800",
@@ -461,6 +466,7 @@ export const OurRoadmap = () => {
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
 
   <Box
+  data-aos="fade-down"
     bg="white"
     _dark={{
       bg: "gray.800",
@@ -547,6 +553,7 @@ export const OurRoadmap = () => {
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
 
   <Box
+  data-aos="fade-up"
     bg="white"
     _dark={{
       bg: "gray.800",
@@ -631,6 +638,7 @@ export const OurRoadmap = () => {
                     <div className="tl-icon btn-icon-round btn-icon btn-icon-thin btn-info"> <img src="assets/images/Finance_logo.png" className='logoicon'/> </div>
 
   <Box
+  data-aos="fade-down"
     bg="white"
     _dark={{
       bg: "gray.800",

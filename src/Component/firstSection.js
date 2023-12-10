@@ -100,11 +100,12 @@ Our goal is to facilitate investment in secure assets that might be otherwise in
 								</div>
 							</div>
 						</div> */}
-						<SimpleGrid columns={3}  py={6} ml={10}
+						<SimpleGrid columns={3}  py={6} 
             minChildWidth="250px"
             spacing={20}
             
             flexWrap="wrap"
+
             
             
   

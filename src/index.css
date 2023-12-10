@@ -344,6 +344,10 @@ p.roadMap_text {
   /* background-color: gray; */
   text-align: left;
 }
+
+.textcontainer > h2 > span {
+  color: white;
+}
 .contact-form input[type="text"] {
   display: block;
   height: 46px;
