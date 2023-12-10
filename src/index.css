@@ -40,7 +40,12 @@ img.img-responsive {
   color: #d86b34;
   background-color: white;
 }
-
+#footer {
+  background-color: #436ca6 !important;
+  padding: 70px 0 0;
+  position: relative;
+  z-index: 1;
+}
 .box-title.mb-15 > h3 {
   color: white;
 }
