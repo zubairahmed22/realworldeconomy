@@ -200,12 +200,13 @@ img.logoicon {
   /* background-color: white; */
   color: white;
   font-size: 35px;
+  text-transform: uppercase;
 }
-
 .col-sm-12.mb-20 > h2 {
   /* background-color: white; */
   color: white;
   font-size: 35px;
+  text-transform: uppercase;
 }
 .text-warning {
   color: #d86935;

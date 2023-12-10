@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -18,11 +19,11 @@ const Footer = () => {
                      <div class="widget widget_links">
                         <h2 class="widget-title"><span>COMPANY LINKS</span></h2>
                         <ul class="wprt-links clearfix col2">
-                           <li><a href="#">Home</a></li>
-                           <li><a href="#">PreSale</a></li>
-                           <li><a href="#">About Us</a></li>
-                           <li><a href="#">Contact-Us</a></li>
-                           <li><a href="#">Team</a></li>
+                           <li><Link to="/">Home</Link></li>
+                           <li><Link to="/freesale">PreSale</Link></li>
+                           <li><Link to="/about">About Us</Link></li>
+                           <li><Link to="/contact">Contact-Us</Link></li>
+                           <li> <Link to="/team">Team</Link></li>
 
                           
                           

@@ -15,7 +15,7 @@ export const OurRoadmap = () => {
     <div className="container">
       
       <div className="row">
-        <div className='textcontainer' data-aos="fade-down">
+        <div className='textcontainer'>
       <h2 style={{textAlign: "center"}}>Roadmap Company Development Plan</h2>
       </div>
         <div className="col-sm-12">
