@@ -81,7 +81,7 @@ const freeSale = () => {
              <button><img src='assets/images/usdt.svg' alt='USDT icon'/>USDT</button>
              </div>
              <div className='lastDiv'>
-              Swaping
+              Swapping
              </div>
           </div>
           </div>  
