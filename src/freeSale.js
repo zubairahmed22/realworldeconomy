@@ -25,11 +25,11 @@ const freeSale = () => {
 					</div>
 				</div>
 			</section>
-        <div className='mainDev'> 
+      
            
           <div className='RightMain'>
             
-          <div className='Rightdev1'>
+        
           
           <div className='firtone'>
           <div className='Birdgetext'> 
@@ -38,56 +38,47 @@ const freeSale = () => {
           </div>
           <div className='buttoncollection'>
             <div className='bgDiv'>
-              <button className='button1'>Native Bridge</button>
+              <div className='button1'> Amount Raised
+              <p>$1,452,433.87</p>
+              </div>
+              <div className='button1'>Remaning Token
+                <p>3454546,656</p>
+              </div>
               
             </div>
           </div>
     
-          <div className='secondSection' >
-            <div className='transfer'>
-              Transfer from
-            </div>
+          
+            
             <div className='etherum'>
+              <h3>Buy now before price increased</h3>
             <div className='divone'>
-             <img src={ethChain }/>
-             <h4>Ethereum</h4>
+            
              </div>
-             <div className='secondone'>
-              <p>Balance:<span>0</span></p>
-             </div>
+             
               
            
             </div>
-            <div className='secondEthereum'>
-              <div className='leftEthereum'>
-                <img src={Eth}/> <span>ETH</span>
-                {/* <KeyboardArrowDownIcon
-                sx={{fontSize: "16px"}}
-                /> */}
-              </div>
-              <div className='RightEthereum'>
-                <span>0.00</span>
-                <div className='BtnContainer'>
-                  <button>25%</button>
-                  <button>50%</button>
-                  <button>MAX</button>
-                  </div>
-              </div>
-             </div>
+            
              <div className='buttonbox'>
-              <button>
-                <img src={birdgeboxicon}/>
-              </button>
+          
+              <div className='buttonbox1'>
+              <p className='percentage'>70% sold</p>
+              </div>
              </div>
              <div className='tranferTwo'>
-              Transfer To
+             
               <div className='mainBox'>
-                <div className='boxi'>
-                <img src={zkevm}/> <p>zkEVM</p>
-                </div>
-               
-                <p>balance:<span>0</span></p>
+                <p>Next Stage Price <span>2039 BUSD</span></p>
               </div>
+
+              <div className='boxi'>
+              <p> Total Tokens Sold <span> 324234</span></p>
+                </div>
+             </div>
+             <div className='CurrencyBTN'> 
+             <button> <img src='assets/images/bnb.svg' alt='BNB icon' className='bnb_icon'/>BNB</button>
+             <button><img src='assets/images/usdt.svg' alt='USDT icon'/>USDT</button>
              </div>
              <div className='lastDiv'>
               Swaping
@@ -105,9 +96,9 @@ const freeSale = () => {
             </div>
           </div> */}
           
-          </div> 
-          </div>   
-          </div>
+          
+            
+          
           </>
       )
     }

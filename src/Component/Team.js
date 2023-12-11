@@ -481,7 +481,7 @@ export const Team = () => {
       </HStack>
     </Box>
   </Flex>
-</SimpleGrid>;
+</SimpleGrid>
 									
 									
 
