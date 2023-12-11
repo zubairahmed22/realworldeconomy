@@ -23,9 +23,15 @@
     padding-bottom: 40px;
     
 }
-.Birdgetext{
+.Birdgetext {
     display: flex;
+    justify-content: center;
     gap: 10px;
+}
+.Birdgetext > h3 {
+    font-size: 23px;
+    font-weight: 800;
+    padding-bottom: 15px;
 }
 .bgDiv {
     display: flex;
@@ -69,6 +75,18 @@
         border-radius: 3px;
         font-weight: 500;
     }
+    .firtone {
+        background-color: white;
+        width: 512px;
+        padding: 16px 24px;
+        margin-bottom: 16px;
+        border-radius: 10px;
+        margin-top: 75px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .button1 > p {
         color: white;
         padding-left: 22px;
@@ -77,9 +95,10 @@
     .percentage{
         color: white;
         text-align: 
-        center;align-items: center;
+        center;
+        align-items: center;
         padding-right: 3px;
-        padding-left: 100px;
+        
        }
 }
 
@@ -90,6 +109,24 @@
         align-items: center;
         padding-right: 3px;
         padding-left: 70px !important;
+    }
+    p.percentage {
+        padding-bottom: 1px !important;
+        /* margin-top: -4px; */
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .firtone {
+        background-color: white;
+        width: 512px;
+        padding: 16px 24px;
+        margin-bottom: 16px;
+        border-radius: 10px;
+        margin-top: 75px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -103,19 +140,34 @@
         background-color: #507baf;
         color: #ffffff;
         width: 47%;
-        
         border-radius: 3px;
         font-weight: 500;
     }
-
-   .percentage{
-    color: white;
-    text-align: 
-    center;
-    align-items: center;
-    padding-right: 3px;
     
-   }
+    .firtone {
+        background-color: white;
+        width: 512px;
+        padding: 16px 24px;
+        margin-bottom: 16px;
+        border-radius: 10px;
+        margin-top: 75px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .percentage {
+        color: white;
+        text-align: center;
+        align-items: center;
+        padding-right: 3px;
+        padding-left: 100px !important;
+        padding-bottom: 1px !important;
+        /* margin-top: -4px; */
+        font-size: 11px;
+        font-weight: 700;
+    }
     .tranferTwo {
         display: flex;
         flex-direction: column;
@@ -136,7 +188,7 @@
     border: none;
     color: #4f4b5c;
 
-    width: 50%;
+    width: 40%;
     
     
     
@@ -149,6 +201,10 @@
     align-items: center;
     padding-right: 3px;
     padding-left: 150px;
+    padding-bottom: 1px !important;
+    /* margin-top: -4px; */
+    font-size: 11px;
+    font-weight: 700;
    }
 .divone{
     display: flex;
