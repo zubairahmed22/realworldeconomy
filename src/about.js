@@ -38,27 +38,8 @@ const about = () => {
 
 								</p>
 							</div>
-							<h4>Our smart approach</h4>
-							<ul className="list">
-								<li>
-									<i className="ion-android-done-all text-color"> </i> Work fewer hours - and make more money
-								</li>
-								<li>
-									<i className="ion-android-done-all text-color"> </i> Attract and retain quality, high customers
-								</li>
-								<li>
-									<i className="ion-android-done-all text-color"> </i> Manage your time so get more done in less time
-								</li>
-								<li>
-									<i className="ion-android-done-all text-color"> </i>Hone sharp leadership skills to manage
-								</li>
-								<li>
-									<i className="ion-android-done-all text-color"> </i>Cut expenses without sacrificing quality
-								</li>
-								<li>
-									<i className="ion-android-done-all text-color"> </i> Sed ut perspiciatis unde omnis iste natus error sit
-								</li>
-							</ul>
+							
+							
 
 						</div>
 						<div className="col-sm-6">
