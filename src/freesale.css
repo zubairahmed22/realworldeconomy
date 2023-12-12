@@ -61,26 +61,25 @@
 }
 .buttonbox {
     height: 17px;
-    background-color: #436ca6;
+    background-color: #365d9d;
     border-radius: 100px;
 }
-.bgDiv > .button1 {
+.bgDiv>.button1 {
+    background-color: #365d9d;
     border: none;
-    background-color: #507baf;
-    color: #ffffff;
-    width: 48%;
-    gap: 2px;
-    /* padding: 6px; */
     border-radius: 3px;
+    color: #fff;
     font-weight: 700;
+    gap: 2px;
     padding-top: 10px;
+    width: 48%;
 }
 
 
 @media only screen and (max-width: 450px){
     .bgDiv > .button1 {
         border: none;
-        background-color: #507baf;
+        background-color: #365d9d;
         color: #ffffff;
         width: 48%;
         gap: 2px;
@@ -171,7 +170,7 @@
 
     .bgDiv > .button1 {
         border: none;
-        background-color: #507baf;
+        background-color: #365d9d;
         color: #ffffff;
         width: 48%;
         gap: 2px;
@@ -415,7 +414,7 @@ button > img {
     outline: unset;
     cursor: pointer;
     margin-top: 15px;
-    background-color: #436ca6;
+    background-color: #365d9d;
     color: white;
     margin-top: 35px;
 }
@@ -426,7 +425,7 @@ img.bnb_icon {
 
 
 .CurrencyBTN > button {
-    background-color: #436ca6;
+    background-color: #365d9d;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -437,6 +436,7 @@ img.bnb_icon {
     font-size: 15px;
     font-weight: 600;
 }
+
 .CurrencyBTN {
     display: flex;
     flex-direction: row;
