@@ -36,7 +36,7 @@ export const HeaderComponent = () => {
               
               
                
-              <li onClick={() => setIsOpen(false)}> <Link to="/freesale">PreSale  </Link> 
+              <li onClick={() => setIsOpen(false)}> <Link to="/presale">PreSale  </Link> 
                
                 
                 

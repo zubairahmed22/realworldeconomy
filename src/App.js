@@ -3,7 +3,7 @@ import { Routes,Route } from 'react-router-dom';
 import './App.css';
 import Footer from './Component/Footer';
 import { HeaderComponent } from './Component/header';
-import FreeSale from './freeSale';
+import PreSale from './preSale';
 
 
 import { Home } from './Home';
@@ -21,7 +21,7 @@ function App() {
 <Route path="/" element={<Home/>}/>
 <Route path='/about' element={<About/>}/>
 <Route path='/contact' element={<Contact/>}/>
-<Route path='/freesale' element={<FreeSale/>}/>
+<Route path='/presale' element={<PreSale/>}/>
 
 
   

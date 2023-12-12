@@ -10,18 +10,31 @@
     
 }
 
-
+.button1 > p {
+    color: white;
+    font-weight: 400;
+   
+    font-weight: 500 !important;
+    font-size: 15px;
+}
 .firtone{
     
     background-color: white;
-    width: 512px;
+    width: 500px;
     padding: 16px 24px;
     margin-bottom: 16px;
     border-radius: 10px;
     margin-top: 75px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-bottom: 40px;
+    padding-bottom: 60px;
+    padding-top: 40px;
     
+}
+
+.button1 > p > span {
+    color: white !important;
+    font-size: 15px;
+    font-weight: 600;
 }
 .Birdgetext {
     display: flex;
@@ -55,26 +68,34 @@
     border: none;
     background-color: #507baf;
     color: #ffffff;
-    width: 30%;
+    width: 48%;
     gap: 2px;
-    padding: 6px;
+    /* padding: 6px; */
     border-radius: 3px;
-    font-weight: 500;
+    font-weight: 700;
+    padding-top: 10px;
 }
 
 
 @media only screen and (max-width: 450px){
-
     .bgDiv > .button1 {
         border: none;
         background-color: #507baf;
         color: #ffffff;
-        width: 40%;
+        width: 48%;
         gap: 2px;
-        padding: 6px;
+        /* padding: 6px; */
         border-radius: 3px;
-        font-weight: 500;
+        font-weight: 700;
+        padding-top: 10px;
     }
+    .button1 > p > span {
+        color: white !important;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    
     .firtone {
         background-color: white;
         width: 512px;
@@ -89,8 +110,10 @@
     }
     .button1 > p {
         color: white;
-        padding-left: 22px;
         font-weight: 400;
+        text-align: start !important;
+        font-weight: 500 !important;
+        font-size: 15px;
     }
     .percentage{
         color: white;
@@ -117,6 +140,12 @@
         color: #507baf;
         margin-right: 30px;
     }
+    .button1 > p {
+        color: white;
+        /* padding-right: 20px; */
+        font-weight: 400;
+        text-align: center;
+    }
     p.percentage {
         padding-bottom: 1px !important;
         /* margin-top: -4px; */
@@ -141,19 +170,20 @@
 @media only screen and (max-width: 383px){
 
     .bgDiv > .button1 {
-        display: flex;
-        flex-direction: column;
         border: none;
         background-color: #507baf;
         color: #ffffff;
-        width: 47%;
+        width: 48%;
+        gap: 2px;
+        /* padding: 6px; */
         border-radius: 3px;
-        font-weight: 500;
+        font-weight: 700;
+        padding-top: 10px;
     }
     
     .firtone {
         background-color: white;
-        width: 512px;
+        width: 500px;
         padding: 16px 24px;
         margin-bottom: 16px;
         border-radius: 10px;
@@ -162,6 +192,7 @@
         padding-bottom: 40px;
         margin-left: 20px;
         margin-right: 20px;
+        
     }
     
     .percentage {
@@ -186,10 +217,10 @@
 }
 .button1 > p {
     color: white;
-    padding-left: 10px;
+    
     font-weight: 400;
+    text-align: center !important;
 }
-
 
 .bgDiv > button{
     border: none;

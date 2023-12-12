@@ -1,12 +1,8 @@
 import React from 'react'
 
-import onbording from "./zkEVM-onboarding-play.svg" 
-import birdgeboxicon from "./bridge-mode-toggle.svg"
-import ethChain from "./eth-chain.svg"
-import zkevm from "./zkEVM (1).svg"
-import Eth from "./eth (1).svg"
-import imagebox from "./empty-txns.png"
-// import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
+import CountUp from 'react-countup';
+
 import "./freesale.css"
 
 const freeSale = () => {
@@ -39,10 +35,10 @@ const freeSale = () => {
           <div className='buttoncollection'>
             <div className='bgDiv'>
               <div className='button1'> Amount Raised
-              <p>$1,452,433.87</p>
+              <p> $<CountUp end={1452433} duration={5}/></p>
               </div>
               <div className='button1'>Remaning Token
-                <p>3454546,656</p>
+                <p><CountUp end={34545466} duration={5}/></p>
               </div>
               
             </div>

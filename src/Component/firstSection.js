@@ -439,6 +439,79 @@ Our goal is to facilitate investment in secure assets that might be otherwise in
     </Box>
   </Box>
 
+  <Box
+    mx="auto"
+   
+    position="relative"
+	
+    rounded="lg"
+    shadow="md"
+    bg="white"
+    _dark={{
+      bg: "gray.800",
+    }}
+    maxW="2xl"
+  >
+    
+    <Image
+      roundedTop="lg"
+      w="full"
+      h={64}
+      fit="cover"
+      src="assets/images/services/built-in-finance.jpeg"
+      alt="Article"
+    />
+    <Box p={6}>
+      <Box>
+        
+        <Link
+          display="block"
+          color="gray.800"
+          _dark={{
+            color: "white",
+          }}
+          fontWeight="bold"
+          fontSize="2xl"
+          mt={2}
+          _hover={{
+            color: "gray.600",
+            textDecor: "underline",
+          }}
+        >
+         
+         Finance Explained
+        </Link>
+        <chakra.p
+          mt={2}
+          fontSize="medium"
+          color="gray.600"
+          _dark={{
+            color: "gray.400",
+          }}
+        >
+       Real World Invest believes in the power of Web3 to transform online
+        interactions and empower users by giving them more ownership and value.
+
+       The platform is paving the way for a new era where billions of people can enjoy a
+       greater share of the value they help to create.
+ 
+        </chakra.p>
+      </Box>
+
+      <Box mt={4}>
+        <Flex alignItems="center">
+          <Flex alignItems="center">
+           
+            
+          </Flex>
+          
+        </Flex>
+      </Box>
+    </Box>
+  </Box>
+
+ 
+
 </SimpleGrid>;
 
 					
