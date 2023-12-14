@@ -20,7 +20,7 @@ const Footer = () => {
                         <h2 class="widget-title"><span>COMPANY LINKS</span></h2>
                         <ul class="wprt-links clearfix col2">
                            <li><Link to="/">Home</Link></li>
-                           <li><Link to="/freesale">PreSale</Link></li>
+                           <li><Link to="/presale">PreSale</Link></li>
                            <li><Link to="/about">About Us</Link></li>
                            <li><Link to="/contact">Contact-Us</Link></li>
                            <li> <Link to="/team">Team</Link></li>
