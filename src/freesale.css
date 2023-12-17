@@ -12,7 +12,7 @@
 /* second component css style */
 .secondmainDiv{
     width: 550px;
-    background: lightgray;
+    background-color: whitesmoke;
     border-radius: 25px;
 }
 .lastDiv1 {
@@ -38,7 +38,7 @@
 .topSwapDiv{
 
 margin-top: 40px;
-border-bottom: 1px solid #bbb7b7;
+border-bottom: 1px solid rgb(212 212 212) !important;
 margin-left: 20px;
 margin-right: 20px;
 }
@@ -63,9 +63,11 @@ margin-right: 20px;
     background-color: #5e5a5a;
     border-radius: 7px;
     margin: 20px;
-    border: 1px solid rgb(158, 157, 157) !important;
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5e5a5a+0,726e6e+51,5e5a5a+100 */
-background: linear-gradient(45deg, #beb9b9 0%,#aba7a7 51%,#beb8b8 100%);
+    border: 1px solid rgb(212 212 212) !important;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#edeef2+0,ecedf1+52,ecedf1+100 */
+background: linear-gradient(135deg,  #edeef2 0%,#ecedf1 52%,#ecedf1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
 }
 
 .ButtonContainer1{
@@ -77,8 +79,11 @@ background: linear-gradient(45deg, #beb9b9 0%,#aba7a7 51%,#beb8b8 100%);
     border-radius: 7px;
     margin: 20px;
     
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5e5a5a+0,726e6e+51,5e5a5a+100 */
-background: linear-gradient(45deg, #beb9b9 0%,#aba7a7 51%,#beb8b8 100%);
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfaf2+0,ecedf1+52,ecedf1+100 */
+background: linear-gradient(45deg,  #ecedf1 0%,#ecedf1 52%,#ecedf1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
 }
 .coversionItem > p {
     color: #615e5e;
@@ -91,11 +96,14 @@ background: linear-gradient(45deg, #beb9b9 0%,#aba7a7 51%,#beb8b8 100%);
 }
 .bntDiv {
     width: 95%;
-    background-color: gray;
+    background-color: #EBA91F;
     padding: 10px 0px;
     border-radius: 7px;
     margin-bottom: 30px;
     margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
     /* margin-left: 20px; */
     /* margin-right: 20px; */
     margin: auto;
@@ -109,9 +117,9 @@ background: linear-gradient(45deg, #beb9b9 0%,#aba7a7 51%,#beb8b8 100%);
     
 }
 .divItem > p {
-    color: white;
+    color: #6e6a6a;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 
@@ -120,10 +128,10 @@ background: linear-gradient(45deg, #beb9b9 0%,#aba7a7 51%,#beb8b8 100%);
     font-size: 15px;
     font-weight: 400;
 }
-.divItemLeft > p{
-    color: white;
+.divItemLeft > p {
+    color: #6e6a6a;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 500;
 }
 .iconDiv > p {
     color: #6e6a6a;
@@ -152,7 +160,7 @@ img.bnbimage_icon1 {
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
-    border-bottom: 1px solid #bbb7b7;
+    border-bottom: 1px solid rgb(212 212 212) !important;
 }
 
 .coversion > p {
@@ -259,10 +267,25 @@ img.bnbimage_icon1 {
 @media only screen and (max-width: 580px){
     .secondmainDiv{
         width: 550px;
-        background: lightgray;
+      background-color: whitesmoke;
         border-radius: 25px;
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .coversionItem > p {
+        color: #615e5e;
+        font-weight: 400;
+        padding: 0px;
+        font-size: 12px;
+    }
+    .coversionItem {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+        padding: 0px !important;
+        height: 30px;
     }
 }
 
@@ -280,10 +303,16 @@ img.bnbimage_icon1 {
     }
     .secondmainDiv{
         width: 550px;
-        background: lightgray;
+        background-color: whitesmoke;
         border-radius: 25px;
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .coversionItem > p {
+        color: #615e5e;
+        font-weight: 400;
+        padding: 0px;
+        font-size: 12px;
     }
     .button1 > p > span {
         color: white !important;
@@ -378,10 +407,25 @@ img.bnbimage_icon1 {
     }
     .secondmainDiv{
         width: 550px;
-        background: lightgray;
+        background-color: whitesmoke;
         border-radius: 25px;
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .coversionItem > p {
+        color: #615e5e;
+        font-weight: 400;
+        padding: 0px;
+        font-size: 12px;
+    }
+    .coversionItem {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+        padding: 0px !important;
+        height: 30px;
     }
     
     .firtone {
