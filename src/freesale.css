@@ -256,7 +256,15 @@ img.bnbimage_icon1 {
     padding-top: 10px;
     width: 48%;
 }
-
+@media only screen and (max-width: 580px){
+    .secondmainDiv{
+        width: 550px;
+        background: lightgray;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
 
 @media only screen and (max-width: 450px){
     .bgDiv > .button1 {
