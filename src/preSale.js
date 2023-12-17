@@ -1,6 +1,7 @@
 import React from 'react'
 
-
+import zmk from "./zkEVM.svg"
+import toggle from "./toggle.svg"
 import CountUp from 'react-countup';
 
 import "./freesale.css"
@@ -22,7 +23,7 @@ const freeSale = () => {
 				</div>
 			</section>
       
-           
+{/*            
           <div className='RightMain'>
             
         
@@ -80,20 +81,76 @@ const freeSale = () => {
               Swapping
              </div>
           </div>
-          </div>  
-          {/* <div className='rightBox'>
-            <div className='headerbox'>
-              <p>Recent Transactions</p>
-              <span>View All</span>
+          </div>   */}
+       
+       <div className='RightMain'>
+          <div className='secondmainDiv'>
+            <div className='topSwapDiv'>
+              <h6>Swap</h6>
+              <p>Swap any assets simply and securely with <br/>coin-Ex self developed Algorithm</p>
             </div>
-            <div className='imageBox'>
-              <img src={imagebox}/>
-              <p>There are no pending transactions, but you can start one with a single click.</p>
+
+            <div className='ButtonContainer'>
+              <div className='divItem'>
+              <div className='iconDiv'>
+              <img src='assets/images/bnb.svg' alt='BNB icon' className='bnbimage_icon'/> 
+              <p>BUSD</p>
+              </div>
+              <p>1,945.58</p> 
+              </div>
+
+              <div className='divItemLeft'>
+              <p className='balance_text'> 
+                <span className='balance'>Bal. </span>10.345.28 BUSD</p>
+              <p>$1946.30</p>
+              </div>
+
             </div>
-          </div> */}
-          
-          
-            
+
+            <div className='toggleBox'>
+              <button>
+              <img src={toggle}  alt="toggle icon" className='toggle_icon'/>
+              </button>
+             
+            </div>
+            <div className='ButtonContainer1'>
+              <div className='divItem'>
+              <div className='iconDiv'>
+              <img src={zmk} alt='BNB icon' className='bnbimage_icon1'/> 
+              <p>MATIC</p>
+              </div>
+              <p>842.31</p> 
+              </div>
+
+              <div className='divItemLeft'>
+              <p className='balance_text'> 
+                <span className='balance'>Bal. </span>11.892.74 MATIC</p>
+              <p>984.16</p>
+              </div>
+
+            </div>
+            <div className='coversion'>
+              <p>Conversion Rate</p>
+              <p>1BUSD = 0.799059 MATIC</p>
+            </div>
+
+            <div className='ConversionList'>
+              <div className='coversionItem'>
+                <p>conversion</p>
+                <h5>$2.48</h5>
+              </div>
+              <div className='coversionItem'>
+                <p>Total Expected After Fees</p>
+                <h5>$714.98</h5>
+              </div>
+              <div className='coversionItem'>
+                <p>The Least You'll Get at 100% Slippage</p>
+                <h5>$714.98</h5>
+              </div>
+            </div>
+            <div className='bntDiv'>Connect Wallet</div>
+          </div>
+           </div> 
           
           </>
       )

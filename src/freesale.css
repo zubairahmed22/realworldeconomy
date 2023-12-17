@@ -9,6 +9,188 @@
     
     
 }
+/* second component css style */
+.secondmainDiv{
+    width: 550px;
+    background: lightgray;
+    border-radius: 25px;
+}
+.lastDiv1 {
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border: unset;
+    outline: unset;
+    cursor: pointer;
+    
+    background-color: #afc7ee;
+    color: white;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.topSwapDiv{
+
+margin-top: 40px;
+border-bottom: 1px solid #bbb7b7;
+margin-left: 20px;
+margin-right: 20px;
+}
+.topSwapDiv > h6 {
+    text-align: start;
+    font-size: 20px;
+    font-weight: 700;
+    color: #6e6a6a;
+}
+.topSwapDiv > p {
+    color: #615e5e;
+}
+.balance_text {
+    color: #615e5e !important;
+    font-size: 13px !important;
+}
+.ButtonContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5e5a5a;
+    border-radius: 7px;
+    margin: 20px;
+    border: 1px solid rgb(158, 157, 157) !important;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5e5a5a+0,726e6e+51,5e5a5a+100 */
+background: linear-gradient(45deg, #beb9b9 0%,#aba7a7 51%,#beb8b8 100%);
+}
+
+.ButtonContainer1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5e5a5a;
+    border-radius: 7px;
+    margin: 20px;
+    
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5e5a5a+0,726e6e+51,5e5a5a+100 */
+background: linear-gradient(45deg, #beb9b9 0%,#aba7a7 51%,#beb8b8 100%);
+}
+.coversionItem > p {
+    color: #615e5e;
+    font-weight: 400;
+    padding: 0px;
+}
+.coversionItem > h5 {
+    color: #6e6a6a;
+    font-weight: 500;
+}
+.bntDiv {
+    width: 95%;
+    background-color: gray;
+    padding: 10px 0px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.divItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.divItem > p {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.balance {
+    color: rgb(110 106 106);
+    font-size: 15px;
+    font-weight: 400;
+}
+.divItemLeft > p{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+.iconDiv > p {
+    color: #6e6a6a;
+    font-weight: 600;
+    font-size: 13px;
+}
+.divItemLeft {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.iconDiv {
+    display: flex;
+    gap: 10px;
+    vertical-align: center;
+}
+img.bnbimage_icon {
+    width: 20%;
+    height: 18px;
+}
+img.bnbimage_icon1 {
+  margin-top: -10px;
+}
+.coversion{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #bbb7b7;
+}
+
+.coversion > p {
+    color: #615e5e;
+    font-weight: 400;
+}
+.coversionItem{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+.toggleBox > button{
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ececed;
+    border-radius: 50%;
+    box-shadow: 0 6px 16px -6px rgba(17,12,34,.102);
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin: 16px auto 0;
+    outline: none;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    margin-top: -30px;
+    width: 40px;
+}
+.toggle_icon{
+    margin-left: 10px;
+    width: 40px;
+    height: 25px;
+}
+
+/* second component css style end */
 
 .button1 > p {
     color: white;
@@ -87,6 +269,13 @@
         border-radius: 3px;
         font-weight: 700;
         padding-top: 10px;
+    }
+    .secondmainDiv{
+        width: 550px;
+        background: lightgray;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .button1 > p > span {
         color: white !important;
@@ -178,6 +367,13 @@
         border-radius: 3px;
         font-weight: 700;
         padding-top: 10px;
+    }
+    .secondmainDiv{
+        width: 550px;
+        background: lightgray;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     
     .firtone {
