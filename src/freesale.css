@@ -9,6 +9,33 @@
     
     
 }
+
+.navLink{
+    background-color: #365d9d !important;
+    color: white;
+}
+.component{
+ display: none
+}
+.active{
+    display: block;
+
+}
+.btnList {
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    gap: 20px;
+}
+.btnList > button {
+    background-color: lightgray;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10p;
+    margin-top: px;
+    margin-top: 10px;
+}
 /* second component css style */
 .secondmainDiv{
     width: 550px;
